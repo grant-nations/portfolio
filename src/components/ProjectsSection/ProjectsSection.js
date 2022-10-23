@@ -1,8 +1,10 @@
 import "./ProjectsSection.css";
+import ReturnToShip from "../ReturnToShip/ReturnToShip";
 
-function ProjectsSection() {
+function ProjectsSection({exitSection}) {
     return (
-        <div className="projects-section">
+        <div className="section projects-section">
+            <ReturnToShip exitSection={exitSection}/>
 
         </div>
     )

@@ -1,9 +1,10 @@
 import "./ContactSection.css";
+import ReturnToShip from "../ReturnToShip/ReturnToShip";
 
-function ContactSection() {
+function ContactSection({exitSection}) {
     return (
-        <div className="contact-section">
-
+        <div className="section contact-section">
+            <ReturnToShip exitSection={exitSection}/>
         </div>
     )
 }

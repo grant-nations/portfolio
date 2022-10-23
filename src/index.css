@@ -12,6 +12,21 @@ code {
     monospace;
 }
 
+.section{
+  width: 70%;
+  height: calc(100vh - 40px);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10025;
+
+  box-sizing: border-box;
+  background-color: #05050e;
+  border-radius: 10px;
+  color: #e6faf8;
+}
+
 @font-face {
   font-family: "PressStart2P";
   src: local("PressStart2P"),
