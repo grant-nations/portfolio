@@ -10,6 +10,8 @@
     font-size: 18px;
     cursor: pointer;
     margin: 20px 0;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .resume-section-subsection-item{

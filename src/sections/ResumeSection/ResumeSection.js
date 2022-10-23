@@ -2,33 +2,22 @@ import "./ResumeSection.css";
 import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 
 function ResumeSection({exitSection}) {
-
-    const downloadResume = () => {
-        fetch("GrantNationsResume.pdf").then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = "GrantNationsResume.pdf";
-                alink.click();
-            })
-        })
-    }
-
     return (
         <div className="section resume-section">
             <div className="section-header">
                 <h2 className="section-title">Resume</h2>
                 <ReturnToShip exitSection={exitSection}/>
             </div>
-            <button type="button" className="resume-download" onClick={downloadResume}>Download PDF</button>
+            <a className="resume-download" href={`${process.env.PUBLIC_URL}/GrantNationsResume.pdf`}
+               download="GrantNationsResume.pdf">Download PDF</a>
             <div>
                 <p className="section-subtitle resume-name">Grant Nations</p>
                 <p className="contact-links">nationsgrant@gmail.com</p>
-                <p className="contact-links"><a className="link contact-links" href="https://www.linkedin.com/in/grant-nations/">www.linkedin.com/in/grant-nations/</a></p>
-                <p className="contact-links"><a className="link contact-links" href="https://github.com/grant-nations">github.com/grant-nations</a></p>
+                <p className="contact-links"><a className="link contact-links"
+                                                href="https://www.linkedin.com/in/grant-nations/">www.linkedin.com/in/grant-nations/</a>
+                </p>
+                <p className="contact-links"><a className="link contact-links"
+                                                href="https://github.com/grant-nations">github.com/grant-nations</a></p>
             </div>
             <div>
                 <p className="section-subtitle">Education</p>
@@ -174,13 +163,16 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">Tools</p>
                     <ul className="section-list">
-                        <li>SolidWorks, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify, Heroku</li>
+                        <li>SolidWorks, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify,
+                            Heroku
+                        </li>
                     </ul>
                 </div>
             </div>
             <div>
                 <p className="section-subtitle">Soft Skills</p>
-                <p className="section-text resume-section-subsection-item">Creativity, communication, teamwork, problem-solving, leadership, adaptability, responsibility</p>
+                <p className="section-text resume-section-subsection-item">Creativity, communication, teamwork,
+                    problem-solving, leadership, adaptability, responsibility</p>
             </div>
         </div>
     )
