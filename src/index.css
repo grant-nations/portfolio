@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "PressStart2P";
+  src: local("PressStart2P"),
+  url("./fonts/PressStart2P.ttf") format("truetype");
+}
+
+/*@font-face {*/
+/*  font-family: "CodersCrux";*/
+/*  src: url("./fonts/CodersCrux.ttf") format("truetype");*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "runescape_uf";*/
+/*  src: local("runescape_uf"),*/
+/*  url("./fonts/runescape_uf.ttf") format("truetype");*/
+/*}*/

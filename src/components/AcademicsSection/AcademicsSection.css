@@ -1,0 +1,9 @@
+.academics-section{
+    margin: 20px auto 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #05050e;
+    border-radius: 5px;
+    color: #e6faf8;
+    /*font-family: sans-serif;*/
+}
