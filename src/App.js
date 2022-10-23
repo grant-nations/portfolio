@@ -6,11 +6,11 @@ import pink from "./planet-gifs/pink.gif";
 import red from "./planet-gifs/red.gif";
 import star from "./planet-gifs/star.gif";
 
-import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
-import AboutSection from "./components/AboutSection/AboutSection";
-import AcademicsSection from "./components/AcademicsSection/AcademicsSection";
-import ContactSection from "./components/ContactSection/ContactSection";
-import ResumeSection from "./components/ResumeSection/ResumeSection";
+import ProjectsSection from "./sections/ProjectsSection/ProjectsSection";
+import AboutSection from "./sections/AboutSection/AboutSection";
+import AcademicsSection from "./sections/AcademicsSection/AcademicsSection";
+import ContactSection from "./sections/ContactSection/ContactSection";
+import ResumeSection from "./sections/ResumeSection/ResumeSection";
 
 function App() {
 

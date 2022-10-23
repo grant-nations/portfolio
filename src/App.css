@@ -31,7 +31,7 @@
 }
 
 .home-header-title {
-    font-family: "Major Mono Display", monospace, "PressStart2P", sans-serif;
+    font-family: "Major Mono Display", monospace;
     color: #e6faf8;
     font-size: 40px;
     margin: 0;
@@ -71,7 +71,7 @@
 /* section titles */
 
 .base-title {
-    font-family: 'Major Mono Display', monospace, "PressStart2P", sans-serif;
+    font-family: 'Major Mono Display', monospace;
     color: #e6faf8;
     font-size: 24px;
     margin: 14px 0 0;
