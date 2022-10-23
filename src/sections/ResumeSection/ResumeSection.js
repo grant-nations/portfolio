@@ -2,14 +2,30 @@ import "./ResumeSection.css";
 import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 
 function ResumeSection({exitSection}) {
+
+    const downloadResume = () => {
+        fetch("%PUBLIC_URL%/GrantNationsResume.pdf").then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = "GrantNationsResume.pdf";
+                alink.click();
+            })
+        })
+    }
+
     return (
         <div className="section resume-section">
             <div className="section-header">
                 <h2 className="section-title">Resume</h2>
                 <ReturnToShip exitSection={exitSection}/>
             </div>
-            <a className="resume-download" href={`${process.env.PUBLIC_URL}/GrantNationsResume.pdf`}
-               download="GrantNationsResume.pdf">Download PDF</a>
+            {/*<a className="resume-download" href={`${process.env.PUBLIC_URL}/GrantNationsResume.pdf`}*/}
+            {/*   download="GrantNationsResume.pdf">Download PDF</a>*/}
+            <button className="resume-download" type="button" onClick={downloadResume}>Download PDF</button>
             <div>
                 <p className="section-subtitle resume-name">Grant Nations</p>
                 <p className="contact-links">nationsgrant@gmail.com</p>
