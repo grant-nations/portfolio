@@ -4,7 +4,7 @@ import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 function ResumeSection({exitSection}) {
 
     const downloadResume = () => {
-        fetch(process.env.PUBLIC_URL + "/GrantNationsResume.pdf")
+        fetch(`${process.env.PUBLIC_URL}/GrantNationsResume.pdf`)
             .then((response) => response.blob())
             .then((blob) => {
                 // Creating blob link to download
