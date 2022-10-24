@@ -20,7 +20,7 @@ code {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 10025;
-    padding: 60px 120px;
+    padding: 60px 6%;
     box-sizing: border-box;
     background-color: #05050e;
     border-radius: 10px;

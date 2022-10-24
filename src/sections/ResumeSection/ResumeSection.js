@@ -3,10 +3,7 @@ import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 
 function ResumeSection({exitSection}) {
 
-    const pdfDownloadPath = process.env.PUBLIC_URL;
     const windowOrigin = window.location.origin;
-    console.log(pdfDownloadPath);
-    console.log(windowOrigin);
 
     const downloadResume = () => {
         fetch(windowOrigin + "/GrantNationsResume.pdf")
