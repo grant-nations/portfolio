@@ -3,8 +3,13 @@ import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 
 function ResumeSection({exitSection}) {
 
+    const pdfDownloadPath = process.env.PUBLIC_URL;
+    const windowOrigin = window.location.origin;
+    console.log(pdfDownloadPath);
+    console.log(windowOrigin);
+
     const downloadResume = () => {
-        fetch(`${process.env.PUBLIC_URL}/GrantNationsResume.pdf`)
+        fetch(windowOrigin + "/GrantNationsResume.pdf")
             .then((response) => response.blob())
             .then((blob) => {
                 // Creating blob link to download
