@@ -4,7 +4,7 @@ import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 function ResumeSection({exitSection}) {
 
     const downloadResume = () => {
-        fetch("%PUBLIC_URL%/GrantNationsResume.pdf").then(response => {
+        fetch(process.env.PUBLIC_URL + "/GrantNationsResume.pdf").then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
