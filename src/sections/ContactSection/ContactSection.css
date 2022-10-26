@@ -1,3 +1,27 @@
-.contact-section{
+.icon{
+    color: #e6faf8;
+    margin: 0 15px 0 0;
+}
 
+.contact-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+    color: #e6faf8;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+
+.link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #e6faf8;
+    line-height: 28px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.contact-lines-container{
+    margin-top: 40px;
 }

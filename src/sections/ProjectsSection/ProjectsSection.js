@@ -8,6 +8,9 @@ function ProjectsSection({exitSection}) {
                 <h2 className="section-title">Projects</h2>
                 <ReturnToShip exitSection={exitSection}/>
             </div>
+            <p className="section-text">
+                COMING SOON.
+            </p>
         </div>
     )
 }

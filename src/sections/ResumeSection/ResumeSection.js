@@ -199,8 +199,11 @@ function ResumeSection({exitSection}) {
             </div>
             <div>
                 <p className="section-subtitle">Soft Skills</p>
-                <p className="section-text resume-section-subsection-item">Creativity, communication, teamwork,
-                    problem-solving, leadership, adaptability, responsibility</p>
+                <ul className="section-list">
+                    <li>Creativity, communication, teamwork,
+                        problem-solving, leadership, adaptability, responsibility
+                    </li>
+                </ul>
             </div>
         </div>
     )
