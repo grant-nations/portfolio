@@ -63,7 +63,7 @@ function App() {
 
     return (
         <div className={sectionView ? "home-page " : "home-page"}>
-            <div className={sectionView ? "cloud" : ""}/>
+            <div onClick={exitSection} className={sectionView ? "cloud" : ""}/>
             <header className="home-header">
                 <h1 className="home-header-title">
                     Grant Nations' Portfolio

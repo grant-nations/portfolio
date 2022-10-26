@@ -6,7 +6,7 @@
 /*}*/
 
 .home-page {
-    background: url('background/space_borger.png') no-repeat fixed;
+    background: url('background/coffee-space-cake.png') no-repeat fixed;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -33,7 +33,7 @@
 .home-header-title {
     font-family: "Major Mono Display", monospace;
     color: #e6faf8;
-    font-size: 40px;
+    font-size: 45px;
     margin: 0;
 }
 
@@ -101,28 +101,28 @@
     text-align: center;
 }
 
-.projects {
-    left: 8%;
-    top: 10%;
+.contact {
+    left: 13%;
+    bottom: 20%;
 }
 
 .academics {
-    left: 23%;
-    bottom: 30%;
+    left: 28%;
+    top: 27%;
 }
 
-.about {
-    left: 42%;
-    top: 30%;
+.projects {
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
 }
 
 .resume {
-    right: 20%;
+    right: 28%;
     top: 24%;
 }
 
-.contact {
-    right: 27%;
+.about {
+    right: 15%;
     bottom: 20%;
 }
 
