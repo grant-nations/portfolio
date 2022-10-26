@@ -66,7 +66,7 @@ function App() {
             <div onClick={exitSection} className={sectionView ? "cloud" : ""}/>
             <header className="home-header">
                 <h1 className="home-header-title">
-                    Grant Nations' Portfolio
+                    Grant Nations
                 </h1>
             </header>
             <div className="section-base projects">
