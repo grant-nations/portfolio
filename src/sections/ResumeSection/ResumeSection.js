@@ -143,10 +143,14 @@ function ResumeSection({exitSection}) {
                              href="https://heartfelt-frangipane-722cca.netlify.app/">heartfelt-frangipane-722cca.netlify.app/</a>
                     </p>
                     <ul className="section-list">
-                        <li>Mock e-commerce application using React, Redux, Firebase, and Styled Components.
+                        <li>Simulates an at-scale e-commerce application using React, Redux, Firebase, and Styled
+                            Components.
                         </li>
-                        <li>Implemented using different methods for handling website state, i.e. React Context, Redux
-                            Thunks, and Redux Sagas.
+                        <li>
+                            Maintains user sessions with Redux Persist.
+                        </li>
+                        <li>
+                            Handles application state with React Context, Redux Thunks, and Redux Sagas.
                         </li>
                     </ul>
                 </div>
