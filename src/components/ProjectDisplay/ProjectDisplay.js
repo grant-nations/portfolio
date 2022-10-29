@@ -1,11 +1,15 @@
 import "./ProjectDisplay.css";
 
-function ProjectDisplay({startDate, endDate, name, number, description, images}) {
+function ProjectDisplay({startDate, endDate, name, number, descriptions, images, links}) {
     return (
         <div className="project-display">
             <div>
-                <h4 className="project-name">{number}. {name} <span className="project-dates">| {startDate}{endDate ? " — " : ""}{endDate}</span></h4>
-                <p className="section-text project-description">{description}</p>
+                <h4 className="project-name">{number}. {name} <span
+                    className="project-dates">{startDate || endDate ? "|" : ""} {startDate}{endDate ? " — " : ""}{endDate}</span></h4>
+                {descriptions.map(desc => {
+                    return <p key={desc} className="section-text project-description">{desc}</p>
+                })}
+                {links && links.map(link => <a key={link} className="project-link" href={link.href}>{link.text}</a>)}
             </div>
             <div className="project-images-corral">
                 {images.map(image => {

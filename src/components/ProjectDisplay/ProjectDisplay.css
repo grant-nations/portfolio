@@ -47,3 +47,25 @@
     font-size: 16px;
     font-weight: 300;
 }
+
+.project-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #e6faf8;
+    line-height: 28px;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+}
+
+.project-link:last-child{
+    margin-bottom: 20px;
+}
+
+.project-ul{
+
+}
+
+.project-li{
+
+}
