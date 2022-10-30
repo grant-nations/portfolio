@@ -2,12 +2,13 @@ import "./ProjectDisplay.css";
 import {useState} from "react";
 import ExplodedPhoto from "../ExplodedPhoto/ExplodedPhoto";
 
-function ProjectDisplay({startDate, endDate, name, number, descriptions, images, links}) {
+function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descriptions, images, links}) {
 
     const [photoView, setPhotoView] = useState({img: null, imgName: null})
 
     const exitPhotoView = () => {
         setPhotoView({img: null, imgName: null});
+        setLockScroll(false);
     }
 
     return (
@@ -28,7 +29,8 @@ function ProjectDisplay({startDate, endDate, name, number, descriptions, images,
                         <div className="image-box">
                             <img className="project-image"
                                  onClick={() => {
-                                     setPhotoView({img: image.img, imgName: image.name})
+                                     setLockScroll(true);
+                                     setPhotoView({img: image.img, imgName: image.name});
                                  }}
                                  src={image.img} alt={image.name}/>
                         </div>

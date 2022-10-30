@@ -1,3 +1,31 @@
-.projects-section{
+.scroll-lock{
+    overflow-x: hidden;
+    overflow: hidden;
+}
 
+.scroll-auto{
+    overflow-x: auto;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scroll-auto::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.projects-section{
+    width: 76%;
+    height: calc(100vh - 40px);
+    position: fixed;
+    left: calc(50% - 38%);
+    top: calc( 50% - (100vh - 40px)/2);
+    /*transform: translate(-50%, -50%);*/
+    z-index: 102;
+    padding: 60px 6%;
+    box-sizing: border-box;
+    background-color: #05050e;
+    border-radius: 6px;
+    color: #e6faf8;
 }

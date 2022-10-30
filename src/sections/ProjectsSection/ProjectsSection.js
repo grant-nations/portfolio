@@ -20,6 +20,7 @@ import react_signup from "./photos/react-signup.jpg";
 import hiragana_pdf from "./photos/hiragana-shuffle-pdf.jpg";
 import kana_shuffle from "./photos/kana-shuffle-home.jpg";
 import jetta from "./photos/jetta.jpg";
+import {useState} from "react";
 
 function ProjectsSection({exitSection}) {
 
@@ -87,8 +88,10 @@ function ProjectsSection({exitSection}) {
         {img: jetta, name: "jetta", caption: "Right before taking the engine out."}
     ]
 
+    const [lockScroll, setLockScroll] = useState(false);
+
     return (
-        <div className="section projects-section">
+        <div className={`projects-section ${lockScroll ? "scroll-lock" : "scroll-auto"}`}>
             <div className="section-header">
                 <h2 className="section-title">Projects</h2>
                 <ReturnToShip exitSection={exitSection}/>
@@ -98,6 +101,7 @@ function ProjectsSection({exitSection}) {
                 least cool. </p>
             <div>
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="August 2022"
                     endDate={"Current"}
                     name="Space Domain Awareness Scheduler"
@@ -106,6 +110,7 @@ function ProjectsSection({exitSection}) {
                     images={[]}
                 />
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="2015"
                     endDate="2019"
                     name="The Crustang and Dani California"
@@ -114,6 +119,7 @@ function ProjectsSection({exitSection}) {
                     images={mustangPhotos}
                 />
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="September 2021"
                     endDate="January 2022"
                     name="Pupil"
@@ -126,6 +132,7 @@ function ProjectsSection({exitSection}) {
                     number={"3"}
                     images={pupilPhotos}/>
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="July 2022"
                     name="Kana Shuffle"
                     descriptions={["Kana Shuffle is a web application that allows users to download Japanese hiragana, katakana, and romaji practice sheets whose characters are in a different order each time. It addresses a problem I noticed when learning to read Japanese, in that I had a difficult time remembering hiragana and katakana if the worksheet I was using was in a different order. This application is built using Node.js/express backend and React.js frontend."]}
@@ -137,12 +144,14 @@ function ProjectsSection({exitSection}) {
                     ]}
                 />
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="May 2022"
                     name="React E-Commerce Application"
                     descriptions={["This project is a mock e-commerce application for the fake brand Crown Clothing. It was built using React, TypeScript, Redux, Firebase, and Styled Components. Different branches in the repository display different methods for handling website state, i.e. React Context, Redux Thunks, and Redux Sagas."]}
                     number={"5"}
                     images={reactPhotos}/>
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="2016"
                     endDate="2017"
                     name="Jetta Engine Swap"
@@ -150,18 +159,21 @@ function ProjectsSection({exitSection}) {
                     number={"6"}
                     images={jettaPhotos}/>
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="November 2019"
                     name="Impeller Pump"
                     descriptions={["When I was studying Mechanical Engineering, I built an impeller pump as a class project. My mechanical background placed me in a leadership position on the team, so I designed the impeller and pump housing in SolidWorks and also built the transmission."]}
                     number={"7"}
                     images={pumpPhotos}/>
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="April 2020"
                     name="Tachometer Mount"
                     descriptions={["In 1966, Mustangs did not generally come from the factory with a tachometer. I wanted to install one, but didn’t like how the only mounting option available was a hose clamp. I designed my own tachometer mounts in SolidWorks and 3D printed them. PLA melts if left in a car in Tucson, so the plan was to later machine them out of aluminum."]}
                     number={"8"}
                     images={tachPhotos}/>
                 <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     name="Honorable Mentions"
                     descriptions={["Over the years, I’ve done countless random projects, all of which helped me to develop the creativity and problem solving skills that I have today . To name a few, I’ve: built a custom steel bumper for my 2001 4Runner, machined custom door lock pins for my Mustang, made custom kitchen knives that I sold to customers in places as far away as Australia, built a custom subwoofer box for my 4Runner, installed 3 car stereo head units, disassembled and fixed a washing machine, replaced power steering pumps, and more."]}
                     number={"9"}
