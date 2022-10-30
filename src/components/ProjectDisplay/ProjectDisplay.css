@@ -1,0 +1,73 @@
+.project-display{
+    margin-bottom: 60px;
+}
+
+.project-display:last-child{
+    margin-bottom: 0;
+}
+
+.project-images-corral{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.image-stall{
+    margin: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 460px;
+}
+
+.project-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.image-box{
+    width: 100%;
+    aspect-ratio: 5 / 3;
+    /*height: 300px;*/
+}
+
+.project-name{
+    font-family: "Montserrat", sans-serif;
+    color: #e6faf8;
+    font-size: 20px;
+    margin: 40px 0 0;
+}
+
+.project-description{
+    margin: 10px 0 20px;
+}
+
+.project-dates{
+    font-weight: 300;
+}
+
+.project-image-caption{
+    margin: 10px 0 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.project-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #e6faf8;
+    line-height: 28px;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+}
+
+.project-link:last-child{
+    margin-bottom: 20px;
+}

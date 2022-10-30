@@ -8,10 +8,11 @@ function AcademicsSection({exitSection}) {
                 <h2 className="section-title">Academics</h2>
                 <ReturnToShip exitSection={exitSection}/>
             </div>
-            <p className="section-text"><span style={{fontWeight: 700}}>TL;DR:</span> I'm a student at the University of
-                Utah double majoring in computer
-                science and physics with a 4.0 GPA. In computer science my focus is in artificial intelligence and in
-                physics my emphasis is computational physics and astronomy.</p>
+            {/*<span style={{fontWeight: 700}}>TL;DR:</span>*/}
+            <p className="section-text section-description"> I'm a physics and computer science double major at the
+                University of Utah with
+                a 4.0 GPA. In computer science my focus is artificial intelligence and my physics emphasis is
+                in computational physics and astronomy.</p>
             <p className="section-text">I started out studying mechanical engineering at the University of Utah, but
                 after one year I realized how cool programming was and switched to computer science. A year after being
                 in computer science, I became interested in physics during a conversation about a “space elevator” and
@@ -19,7 +20,7 @@ function AcademicsSection({exitSection}) {
                 graduate in the spring of 2023 with a BCS in computer science and a BS in physics with a computational
                 physics emphasis. Following graduation I plan to earn my master’s degree in computer science with a
                 focus on artificial intelligence from Stanford University.</p>
-            <p className="section-text" >Here’s a list of my college courses to date (excluding most gen-eds):</p>
+            <p className="section-text">Here’s a list of my college courses to date (excluding most gen-eds):</p>
             <p className="section-list-item-title">Computer science:</p>
             <ul className="section-list">
                 <li>CS 1410 Object-Oriented Programming</li>
@@ -78,14 +79,16 @@ function AcademicsSection({exitSection}) {
                         </li>
                     </ul>
                 </li>
-                <li className="award-list-item">National Merit Commended Scholar, National Merit Scholarship Corporation 2019
+                <li className="award-list-item">National Merit Commended Scholar, National Merit Scholarship Corporation
+                    2019
                     <ul>
                         <li>An award granted by the National Merit Scholarship Corporation to students among the top
                             50,000 high scorers on the PSAT based on a nationally applied Selection Index score.
                         </li>
                     </ul>
                 </li>
-                <li className="award-list-item">Rain Bird Employee Dependent Scholarship Recipient, Rain Bird Scholarship Committee 2019
+                <li className="award-list-item">Rain Bird Employee Dependent Scholarship Recipient, Rain Bird
+                    Scholarship Committee 2019
                     <ul>
                         <li>Each year Rain Bird offers the Employee Dependent Scholarship Program to dependents of
                             regular employees. This award is presented to 5 outstanding college bound students based
@@ -93,7 +96,8 @@ function AcademicsSection({exitSection}) {
                         </li>
                     </ul>
                 </li>
-                <li className="award-list-item">Dr. Voie Stuart Chase Coy Scholar-Athlete Award Finalist, Arizona Interscholastic Association 2019
+                <li className="award-list-item">Dr. Voie Stuart Chase Coy Scholar-Athlete Award Finalist, Arizona
+                    Interscholastic Association 2019
                     <ul>
                         <li>The Dr. Voie Stuart Chase Coy Scholar Activity & Athlete Awards are presented to those who
                             have participated in AIA sanctioned athletics and/or activities while achieving academic

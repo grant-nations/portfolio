@@ -13,17 +13,17 @@ code {
 }
 
 .section {
-    width: 70%;
+    width: 76%;
     height: calc(100vh - 40px);
     position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10025;
+    left: calc(50% - 38%);
+    top: calc( 50% - (100vh - 40px)/2);
+    /*transform: translate(-50%, -50%);*/
+    z-index: 102;
     padding: 60px 6%;
     box-sizing: border-box;
     background-color: #05050e;
-    border-radius: 10px;
+    border-radius: 6px;
     color: #e6faf8;
     overflow-x: auto;
     /* Hide scrollbar for IE, Edge and Firefox */
@@ -58,6 +58,10 @@ code {
     line-height: 28px;
     /*text-indent: 40px;*/
 }
+
+/*.section-description{*/
+/*    margin: 20px 0 20px;*/
+/*}*/
 
 .section-list-item-title{
     font-family: "Montserrat", sans-serif;
