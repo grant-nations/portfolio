@@ -39,4 +39,12 @@
     margin: 5px 0;
     line-height: 16px;
     font-weight: 300;
+    display: block;
+}
+
+.resume-links-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }

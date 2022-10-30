@@ -15,17 +15,17 @@ function ContactSection({exitSection}) {
             <div className="contact-lines-container">
                 <div className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faEnvelope}/>
-                    <a className="link" href="mailto:nationsgrant@gmail.com">nationsgrant@gmail.com</a>
+                    <a className="link" target="_blank" rel="noopener noreferrer" href="mailto:nationsgrant@gmail.com">nationsgrant@gmail.com</a>
                 </div>
                 <div className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faLinkedin}/>
-                    <a className="link" href="https://www.linkedin.com/in/grant-nations/">
-                        www.linkedin.com/in/grant-nations/
+                    <a className="link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/grant-nations/">
+                        www.linkedin.com/in/grant-nations
                     </a>
                 </div>
                 <div className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faGithub}/>
-                    <a className="link" href="https://github.com/grant-nations">github.com/grant-nations</a>
+                    <a className="link" target="_blank" rel="noopener noreferrer" href="https://github.com/grant-nations">github.com/grant-nations</a>
                 </div>
             </div>
         </div>

@@ -149,7 +149,13 @@ function ProjectsSection({exitSection}) {
                     name="React E-Commerce Application"
                     descriptions={["This project is a mock e-commerce application for the fake brand Crown Clothing. It was built using React, TypeScript, Redux, Firebase, and Styled Components. Different branches in the repository display different methods for handling website state, i.e. React Context, Redux Thunks, and Redux Sagas."]}
                     number={"5"}
-                    images={reactPhotos}/>
+                    images={reactPhotos}
+                    links={[
+                        {href: "https://heartfelt-frangipane-722cca.netlify.app/", text:"heartfelt-frangipane-722cca.netlify.app"},
+                        {href: "https://github.com/grant-nations/crown-clothing", text:"github.com/grant-nations/crown-clothing"}
+                    ]}
+                />
+
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="2016"

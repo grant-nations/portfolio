@@ -35,17 +35,18 @@ function ResumeSection({exitSection}) {
                 <h2 className="section-title">Resume</h2>
                 <ReturnToShip exitSection={exitSection}/>
             </div>
-            {/*<a className="resume-download" href={`${process.env.PUBLIC_URL}/GrantNationsResume.pdf`}*/}
-            {/*   download="GrantNationsResume.pdf">Download PDF</a>*/}
             <button className="resume-download" type="button" onClick={downloadResume}>Download PDF</button>
             <div>
                 <p className="section-subtitle resume-name">Grant Nations</p>
-                <p className="contact-links">nationsgrant@gmail.com</p>
-                <p className="contact-links"><a className="link contact-links"
-                                                href="https://www.linkedin.com/in/grant-nations/">www.linkedin.com/in/grant-nations/</a>
-                </p>
-                <p className="contact-links"><a className="link contact-links"
-                                                href="https://github.com/grant-nations">github.com/grant-nations</a></p>
+                <div className="resume-links-flex">
+                    <a href="mailto:nationsgrant@gmail.com" target="_blank" rel="noopener noreferrer"
+                       className="link contact-links">nationsgrant@gmail.com</a>
+                    <a className="link contact-links" target="_blank" rel="noopener noreferrer"
+                       href="https://www.linkedin.com/in/grant-nations/">www.linkedin.com/in/grant-nations/</a>
+
+                    <a className="link contact-links" target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/grant-nations">github.com/grant-nations</a>
+                </div>
             </div>
             <div>
                 <p className="section-subtitle">Education</p>
@@ -114,7 +115,8 @@ function ResumeSection({exitSection}) {
                 <p className="section-subtitle">Projects</p>
                 <div>
                     <p className="section-text resume-section-subsection-item">Kana Shuffle
-                        — <a className="link" href="https://kana-shuffle.herokuapp.com">kana-shuffle.herokuapp.com</a>
+                        — <a className="link" target="_blank" rel="noopener noreferrer"
+                             href="https://kana-shuffle.herokuapp.com">kana-shuffle.herokuapp.com</a>
                     </p>
                     <ul className="section-list">
                         <li>Solves the problem of memorizing character order when practicing writing hiragana and
@@ -128,7 +130,8 @@ function ResumeSection({exitSection}) {
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">Pupil
-                        — <a className="link" href="https://www.aboutpupil.com">www.aboutpupil.com</a></p>
+                        — <a className="link" target="_blank" rel="noopener noreferrer"
+                             href="https://www.aboutpupil.com">www.aboutpupil.com</a></p>
                     <ul className="section-list">
                         <li>Streamlined the use of hybrid classroom technology for professors and students on college
                             campuses.
@@ -139,7 +142,7 @@ function ResumeSection({exitSection}) {
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">Crown Clothing E-Commerce Application
-                        — <a className="link"
+                        — <a className="link" target="_blank" rel="noopener noreferrer"
                              href="https://heartfelt-frangipane-722cca.netlify.app/">heartfelt-frangipane-722cca.netlify.app/</a>
                     </p>
                     <ul className="section-list">

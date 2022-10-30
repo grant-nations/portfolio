@@ -20,8 +20,10 @@ function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descri
                 {descriptions.map(desc => {
                     return <p key={desc} className="section-text project-description">{desc}</p>
                 })}
-                {links && links.map(link => <a key={link.text} className="project-link"
-                                               href={link.href}>{link.text}</a>)}
+                {links && <div className="project-links-container">
+                    {links.map(link => <a key={link.text} className="project-link"
+                                          href={link.href} target="_blank" rel="noopener noreferrer">{link.text}</a>)}
+                </div>}
             </div>
             <div className="project-images-corral">
                 {images.map(image => {
