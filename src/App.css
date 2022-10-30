@@ -5,11 +5,16 @@
 /*    background-size: cover;*/
 /*}*/
 
+.section-container{
+    overflow: hidden;
+}
+
 .home-page {
     background: url('background/coffee-space-cake.png') no-repeat fixed;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 .cloud {

@@ -62,7 +62,7 @@ function App() {
     }
 
     return (
-        <div className={sectionView ? "home-page " : "home-page"}>
+        <div className="home-page">
             <div onClick={exitSection} className={sectionView ? "cloud" : ""}/>
             <header className="home-header">
                 <h1 className="home-header-title">
