@@ -70,24 +70,29 @@ function App() {
                 </h1>
             </header>
             <div className="section-base projects">
-                <img onClick={handleProjectsClick} src={star} alt="Star" className="planet-base star"/>
-                <h3 onClick={handleProjectsClick} className="base-title projects-title">Projects</h3>
+                <img src={star} alt="Star" className="planet-base star"/>
+                <div onClick={handleProjectsClick} className="projects-hover-div planet-hover"/>
+                <h3 onClick={handleProjectsClick} className="effect-underline base-title projects-title">Projects</h3>
             </div>
             <div className="section-base academics">
-                <img onClick={handleAcademicsClick} src={red} alt="Red Planet" className="planet-base red-planet"/>
-                <h3 onClick={handleAcademicsClick} className="base-title academics-title">Academics</h3>
+                <img onClick={handleAcademicsClick} src={red} alt="Red Planet"
+                     className="planet-hover planet-base red-planet"/>
+                <h3 onClick={handleAcademicsClick} className="effect-underline base-title">Academics</h3>
             </div>
             <div className="section-base about">
-                <img onClick={handleAboutClick} src={green} alt="Green Planet" className="planet-base green-planet"/>
-                <h3 onClick={handleAboutClick} className="base-title about-title">About</h3>
+                <img onClick={handleAboutClick} src={green} alt="Green Planet"
+                     className="planet-hover planet-base green-planet"/>
+                <h3 onClick={handleAboutClick} className="effect-underline base-title">About</h3>
             </div>
             <div className="section-base resume">
-                <img onClick={handleResumeClick} src={blue_white} alt="Blue Planet" className="planet-base blue-white-planet"/>
-                <h3 onClick={handleResumeClick} className="base-title resume-title">Resume</h3>
+                <img onClick={handleResumeClick} src={blue_white} alt="Blue Planet"
+                     className="planet-hover planet-base blue-white-planet"/>
+                <h3 onClick={handleResumeClick} className="effect-underline base-title">Resume</h3>
             </div>
             <div className="section-base contact">
-                <img onClick={handleContactClick} src={pink} alt="Pink Planet" className="planet-base pink-planet"/>
-                <h3 onClick={handleContactClick} className="base-title">Contact</h3>
+                <img onClick={handleContactClick} src={pink} alt="Pink Planet"
+                     className="planet-hover planet-base pink-planet"/>
+                <h3 onClick={handleContactClick} className="effect-underline base-title">Contact</h3>
             </div>
 
             <div className="section-container">
