@@ -1,6 +1,15 @@
 import "./ProjectDisplay.css";
+import {useState} from "react";
+import ExplodedPhoto from "../ExplodedPhoto/ExplodedPhoto";
 
 function ProjectDisplay({startDate, endDate, name, number, descriptions, images, links}) {
+
+    const [photoView, setPhotoView] = useState({img: null, imgName: null})
+
+    const exitPhotoView = () => {
+        setPhotoView({img: null, imgName: null});
+    }
+
     return (
         <div className="project-display">
             <div>
@@ -17,12 +26,17 @@ function ProjectDisplay({startDate, endDate, name, number, descriptions, images,
                 {images.map(image => {
                     return <div key={image.name} className="image-stall">
                         <div className="image-box">
-                            <img className="project-image" src={image.img} alt={image.name}/>
+                            <img className="project-image"
+                                 onClick={() => {
+                                     setPhotoView({img: image.img, imgName: image.name})
+                                 }}
+                                 src={image.img} alt={image.name}/>
                         </div>
                         <p className="section-text project-image-caption">{image.caption}</p>
                     </div>
                 })}
             </div>
+            {photoView.img && <ExplodedPhoto img={photoView.img} imgName={photoView.imgName} exitView={exitPhotoView}/>}
         </div>
     )
 }

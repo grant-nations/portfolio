@@ -13,14 +13,19 @@
 }
 
 .cloud {
+    cursor: pointer;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 100;
-    background: #545454;
+    background: #000;
     opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";       /* IE 8 */
+    filter: alpha(opacity=0.5);  /* IE 5-7 */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
 }
 
 .home-header {
@@ -83,18 +88,6 @@
 .projects-title {
     margin: -30px 0 0;
 }
-
-/*.academics-title {*/
-/*    margin: 10px 0 0;*/
-/*}*/
-
-/*.about-title {*/
-/*    margin: 10px 0 0;*/
-/*}*/
-
-/*.resume-title {*/
-/*    margin: 10px 0 0;*/
-/*}*/
 
 /*sections*/
 
@@ -167,7 +160,7 @@
     width: 100px;
     height: 100px;
     position: fixed;
-    z-index: 333333;
+    z-index: 101;
     background-color: transparent;
     border-radius: 50%;
     margin: 0;
