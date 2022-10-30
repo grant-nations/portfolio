@@ -1,0 +1,10 @@
+.exploded-img{
+
+}
+.project-image{
+    border-radius: 10px;
+    width: 440px;
+    height: 270px;
+    object-fit: contain;
+}
+

@@ -18,7 +18,12 @@
 .image-stall{
     margin: 16px;
     width: 440px;
+    /*object-fit: cover;*/
 }
+
+/*.image-box{*/
+/*    object-fit: contain;*/
+/*}*/
 
 .project-image{
     border-radius: 10px;

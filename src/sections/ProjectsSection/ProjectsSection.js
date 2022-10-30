@@ -163,7 +163,7 @@ function ProjectsSection({exitSection}) {
                     images={tachPhotos}/>
                 <ProjectDisplay
                     name="Honorable Mentions"
-                    descriptions={["Over the years, I’ve done countless random projects, all of which helped me to develop the creativity and problem solving skills that I have today . To name a few, I’ve: built a custom steel bumper for my 2001 4Runner, machined custom door lock pins for my Mustang, made custom kitchen knives that I sold to customers in places as far away as Australia, built a custom subwoofer box for my 4Runner, installed 3 car stereo head units, disassembled and fixed a washing machine, replaced power steering pumps, and much more."]}
+                    descriptions={["Over the years, I’ve done countless random projects, all of which helped me to develop the creativity and problem solving skills that I have today . To name a few, I’ve: built a custom steel bumper for my 2001 4Runner, machined custom door lock pins for my Mustang, made custom kitchen knives that I sold to customers in places as far away as Australia, built a custom subwoofer box for my 4Runner, installed 3 car stereo head units, disassembled and fixed a washing machine, replaced power steering pumps, and more."]}
                     number={"9"}
                     images={metalWorkPhotos}
                 />
