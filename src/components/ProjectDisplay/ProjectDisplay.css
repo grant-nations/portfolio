@@ -12,11 +12,11 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 0 -16px;
+    /*margin-right: 16px;*/
 }
 
 .image-stall{
-    margin: 16px;
+    margin-right: 32px;
     box-sizing: border-box;
     width: 100%;
     max-width: 460px;
@@ -77,4 +77,19 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+}
+
+@media (max-width: 1200px) {
+    .image-stall{
+        margin: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .project-link{
+        font-size: 16px;
+    }
+    .project-name{
+        font-size: 18px;
+    }
 }
