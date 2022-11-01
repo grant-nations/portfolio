@@ -363,13 +363,12 @@
         left: 0;
         top: 0;
         bottom: 0;
-        height: 100vh;
         box-sizing: border-box;
         border-radius: unset;
         overflow-wrap: anywhere;
-        /*min-height: -webkit-fill-available;*/
+        min-height: -webkit-fill-available;
         -webkit-overflow-scrolling: touch;
-        padding: 30px 30px calc(1em + env(safe-area-inset-bottom));
+        padding: 30px;
     }
 
     .cloud{
