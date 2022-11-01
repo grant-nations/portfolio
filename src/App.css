@@ -17,6 +17,7 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     word-wrap: break-word;
+    overflow-x: hidden;
 }
 
 
@@ -160,6 +161,7 @@
     width: 200px;
     height: 200px;
     cursor: default;
+
 }
 
 .blue-white-planet {
@@ -206,6 +208,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 /*effect-underline*/
@@ -327,6 +330,7 @@
         top: unset;
         bottom: 43px;
         margin-top: -100px;
+
     }
 
     /*effect-underline*/
@@ -359,13 +363,17 @@
 
     .section {
         width: 100vw;
-        height: 100vh;
         left: 0;
         top: 0;
+        bottom: 0;
+        height: 100vh;
         padding: 30px 30px;
         box-sizing: border-box;
         border-radius: unset;
         overflow-wrap: anywhere;
+        height: -webkit-fill-available;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: calc(30px + env(safe-area-inset-bottom, 0));
     }
 
     .cloud{
