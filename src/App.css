@@ -359,14 +359,16 @@
     /*}*/
 
     .section {
-        width: 100vw;
+        width: unset;
+        right: 0;
         left: 0;
         top: 0;
         bottom: 0;
         box-sizing: border-box;
         border-radius: unset;
         overflow-wrap: anywhere;
-        min-height: -webkit-fill-available;
+        height: unset;
+        /*min-height: -webkit-fill-available;*/
         -webkit-overflow-scrolling: touch;
         padding: 30px;
     }

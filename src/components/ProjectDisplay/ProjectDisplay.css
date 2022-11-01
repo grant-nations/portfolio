@@ -92,4 +92,7 @@
     .project-name{
         font-size: 18px;
     }
+    .project-image-caption{
+        margin: 10px 0 20px;
+    }
 }
