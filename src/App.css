@@ -372,7 +372,7 @@
         overflow-wrap: anywhere;
         height: -webkit-fill-available;
         -webkit-overflow-scrolling: touch;
-        padding: 30px 30px calc(1em + env(safe-area-inset-bottom));
+        padding: 30px;
     }
 
     .cloud{
