@@ -85,13 +85,20 @@
 
 .home-page {
     background: url('background/coffee-space-cake.png');
-    min-height: 100vh;
-    min-width: 100vw;
+    /*min-height: 100vh;*/
+    /*min-width: 100vw;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    position: absolute;
+    min-height: 100vh;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     overflow-y: auto;
+    box-sizing: border-box;
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -110,7 +117,7 @@
 }
 
 .home-scroll-auto{
-    position: static;
+    /*position: static;*/
     overflow-y: auto;
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
@@ -161,7 +168,6 @@
     width: 200px;
     height: 200px;
     cursor: default;
-
 }
 
 .blue-white-planet {
@@ -311,6 +317,9 @@
         top: unset;
     }
 
+    .section-base {
+        padding-bottom: 80px;
+    }
     .projects {
         left: unset;
         top: unset;
@@ -321,6 +330,7 @@
         right: unset;
         bottom: unset;
         position: static;
+        padding-bottom: 30px;
     }
 
     .projects-hover-div {
@@ -330,7 +340,6 @@
         top: unset;
         bottom: 43px;
         margin-top: -100px;
-
     }
 
     /*effect-underline*/
@@ -346,13 +355,10 @@
         all: unset;
     }
 
-    .section-base {
-        padding-bottom: 80px;
-    }
 
     .home-header{
         height: unset;
-        margin-bottom: 36px;
+        margin-bottom: 86px;
     }
     /*.home-page{*/
     /*    padding-bottom: 80px;*/

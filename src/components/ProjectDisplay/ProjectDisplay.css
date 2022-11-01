@@ -53,9 +53,10 @@
 }
 
 .project-image-caption{
-    margin: 10px 0 0;
+    margin: 10px 0 20px;
     font-size: 16px;
     font-weight: 300;
+    line-height: 18px;
 }
 
 .project-link{
@@ -91,8 +92,5 @@
     }
     .project-name{
         font-size: 18px;
-    }
-    .project-image-caption{
-        margin: 10px 0 20px;
     }
 }

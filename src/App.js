@@ -70,7 +70,11 @@ function App() {
                 </h1>
             </header>
             <div>
-
+                <div className="section-base about">
+                    <img onClick={handleAboutClick} src={green} alt="Green Planet"
+                         className="planet-hover planet-base green-planet"/>
+                    <h3 onClick={handleAboutClick} className="effect-underline base-title">About</h3>
+                </div>
                 <div className="section-base projects">
                     <img src={star} alt="Star" className="planet-base star"/>
                     <h3 onClick={handleProjectsClick}
@@ -81,11 +85,6 @@ function App() {
                     <img onClick={handleAcademicsClick} src={red} alt="Red Planet"
                          className="planet-hover planet-base red-planet"/>
                     <h3 onClick={handleAcademicsClick} className="effect-underline base-title">Academics</h3>
-                </div>
-                <div className="section-base about">
-                    <img onClick={handleAboutClick} src={green} alt="Green Planet"
-                         className="planet-hover planet-base green-planet"/>
-                    <h3 onClick={handleAboutClick} className="effect-underline base-title">About</h3>
                 </div>
                 <div className="section-base resume">
                     <img onClick={handleResumeClick} src={blue_white} alt="Blue Planet"
