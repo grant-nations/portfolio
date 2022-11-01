@@ -1,5 +1,6 @@
 import "./ResumeSection.css";
 import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
+import BackRocket from "../../components/BackRocket/BackRocket";
 
 function ResumeSection({exitSection}) {
 
@@ -34,6 +35,7 @@ function ResumeSection({exitSection}) {
             <div className="section-header">
                 <h2 className="section-title">Resume</h2>
                 <ReturnToShip exitSection={exitSection}/>
+                <BackRocket exitSection={exitSection}/>
             </div>
             <button className="resume-download" type="button" onClick={downloadResume}>Download PDF</button>
             <div>

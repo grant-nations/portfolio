@@ -3,6 +3,7 @@ import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import BackRocket from "../../components/BackRocket/BackRocket";
 
 
 function ContactSection({exitSection}) {
@@ -11,6 +12,7 @@ function ContactSection({exitSection}) {
             <div className="section-header">
                 <h2 className="section-title">Contact</h2>
                 <ReturnToShip exitSection={exitSection}/>
+                <BackRocket exitSection={exitSection}/>
             </div>
             <div className="contact-lines-container">
                 <div className="contact-line">

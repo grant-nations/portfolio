@@ -1,0 +1,23 @@
+.back-rocket{
+    border-radius: 50%;
+    background-color: #e6faf8;
+    width: 58px;
+    height: 58px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocket-icon{
+    transform: scaleX(-1);
+    color: #05050e;
+}
+
+@media (min-width: 851px) {
+    .back-rocket{
+        display: none;
+    }
+}

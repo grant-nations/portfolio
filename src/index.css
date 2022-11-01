@@ -7,88 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/*html{*/
+/*    overflow: hidden;*/
+/*}*/
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.section {
-    width: 76%;
-    height: calc(100vh - 40px);
-    position: fixed;
-    left: calc(50% - 38%);
-    top: calc( 50% - (100vh - 40px)/2);
-    /*transform: translate(-50%, -50%);*/
-    z-index: 102;
-    padding: 60px 6%;
-    box-sizing: border-box;
-    background-color: #05050e;
-    border-radius: 6px;
-    color: #e6faf8;
-    overflow-x: auto;
-    /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.section::-webkit-scrollbar {
-    display: none;
-}
-
-
-.section-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.section-title {
-    font-family: "Major Mono Display", monospace;
-    margin: 0;
-    font-size: 30px;
-    color: #e6faf8;
-}
-
-.section-text{
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #e6faf8;
-    margin: 40px 0 0;
-    line-height: 28px;
-    /*text-indent: 40px;*/
-}
-
-/*.section-description{*/
-/*    margin: 20px 0 20px;*/
-/*}*/
-
-.section-list-item-title{
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #e6faf8;
-    margin: 20px 0 0;
-    line-height: 28px;
-    /*text-indent: 40px;*/
-}
-
-.section-list{
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #e6faf8;
-    margin: 10px 0 0;
-    line-height: 30px;
-    /*text-indent: 40px;*/
-}
-.award-list-item{
-    margin-bottom: 20px;
-}
-
-.section-subtitle{
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #e6faf8;
-    margin: 40px 0 0;
-    line-height: 28px;
-    font-weight: 700;
-}
