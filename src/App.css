@@ -1,20 +1,25 @@
-/*body {*/
-/*    background-image: url('background/space.png');*/
-/*    background-repeat: no-repeat;*/
-/*    background-attachment: fixed;*/
-/*    background-size: cover;*/
-/*}*/
 
-.section-container{
-    overflow: hidden;
-}
 
 .home-page {
-    background: url('background/coffee-space-cake.png') no-repeat fixed;
+    background: url('background/coffee-space-cake.png');
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+}
+
+.home-scroll {
+    overflow-x: auto;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.home-scroll::-webkit-scrollbar {
+    display: none;
 }
 
 .cloud {
@@ -27,10 +32,10 @@
     z-index: 100;
     background: #7F8487;
     opacity: 0.5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";       /* IE 8 */
-    filter: alpha(opacity=0.5);  /* IE 5-7 */
-    -moz-opacity: 0.5;          /* Netscape */
-    -khtml-opacity: 0.5;        /* Safari 1.x */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)"; /* IE 8 */
+    filter: alpha(opacity=0.5); /* IE 5-7 */
+    -moz-opacity: 0.5; /* Netscape */
+    -khtml-opacity: 0.5; /* Safari 1.x */
 }
 
 .home-header {
@@ -118,8 +123,8 @@
     opacity: 0;
     -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
     transition: opacity 0.25s, transform 0.25s;
-    -webkit-transform: scale(0,1);
-    transform: scale(0,1);
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
 }
 
 .planet-hover:hover + .effect-underline:after {
@@ -141,7 +146,7 @@
 }
 
 .academics {
-    left: 28%;
+    left: 25%;
     top: 27%;
 }
 
@@ -160,7 +165,7 @@
     bottom: 20%;
 }
 
-.projects-hover-div{
+.projects-hover-div {
     cursor: pointer;
     width: 100px;
     height: 100px;
@@ -172,9 +177,79 @@
     padding: 0;
     left: calc(50% - 50px);
     top: calc(50% - 50px);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";       /* IE 8 */
-    filter: alpha(opacity=0);  /* IE 5-7 */
-    -moz-opacity: 0;          /* Netscape */
-    -khtml-opacity: 0;        /* Safari 1.x */
-    opacity: 0;               /* Good browsers */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
 }
+
+@media (max-width: 850px) {
+    .contact {
+        left: unset;
+        bottom: unset;
+        position: static;
+    }
+
+    .academics {
+        left: unset;
+        top: unset;
+        position: static;
+    }
+
+    .resume {
+        position: static;
+        right: unset;
+        top: unset;
+    }
+
+    .projects {
+        left: unset;
+        top: unset;
+        position: static;
+    }
+
+    .about {
+        right: unset;
+        bottom: unset;
+        position: static;
+    }
+
+    .projects-hover-div {
+        position: relative;
+        z-index: unset;
+        left: unset;
+        top: unset;
+        bottom: 43px;
+        margin-top: -100px;
+    }
+
+    /*effect-underline*/
+    .effect-underline:after {
+        all: unset;
+    }
+
+    .planet-hover:hover + .effect-underline:after {
+        all: unset;
+    }
+
+    .effect-underline:hover:after {
+        all: unset;
+    }
+
+    .section-base {
+        margin-bottom: 80px;
+    }
+    .section-base:last-child{
+        margin-bottom: 0;
+    }
+
+    .home-header{
+        height: unset;
+    }
+    .home-page{
+        padding-bottom: 80px;
+    }
+}
+
+
