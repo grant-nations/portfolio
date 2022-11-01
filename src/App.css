@@ -351,15 +351,16 @@
     }
     .section-base:last-child{
         margin-bottom: 0;
+        padding-bottom: 80px;
     }
 
     .home-header{
         height: unset;
         margin-bottom: 36px;
     }
-    .home-page{
-        padding-bottom: 80px;
-    }
+    /*.home-page{*/
+    /*    padding-bottom: 80px;*/
+    /*}*/
 
     .section {
         width: 100vw;
