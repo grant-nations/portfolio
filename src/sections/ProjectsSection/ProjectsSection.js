@@ -21,6 +21,7 @@ import hiragana_pdf from "./photos/hiragana-shuffle-pdf.jpg";
 import kana_shuffle from "./photos/kana-shuffle-home.jpg";
 import jetta from "./photos/jetta.jpg";
 import {useState} from "react";
+import BackRocket from "../../components/BackRocket/BackRocket";
 
 function ProjectsSection({exitSection}) {
 
@@ -91,10 +92,11 @@ function ProjectsSection({exitSection}) {
     const [lockScroll, setLockScroll] = useState(false);
 
     return (
-        <div className={`projects-section ${lockScroll ? "scroll-lock" : "scroll-auto"}`}>
+        <div className={`section ${lockScroll ? "scroll-lock" : "scroll-auto"}`}>
             <div className="section-header">
                 <h2 className="section-title">Projects</h2>
                 <ReturnToShip exitSection={exitSection}/>
+                <BackRocket exitSection={exitSection}/>
             </div>
             <p className="section-text">Personal projects from mechanical to online and everything in between. Sorted
                 from coolest to

@@ -1,5 +1,6 @@
 import "./AcademicsSection.css";
 import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
+import BackRocket from "../../components/BackRocket/BackRocket";
 
 function AcademicsSection({exitSection}) {
     return (
@@ -7,6 +8,7 @@ function AcademicsSection({exitSection}) {
             <div className="section-header">
                 <h2 className="section-title">Academics</h2>
                 <ReturnToShip exitSection={exitSection}/>
+                <BackRocket exitSection={exitSection}/>
             </div>
             {/*<span style={{fontWeight: 700}}>TL;DR:</span>*/}
             <p className="section-text section-description"> I'm a physics and computer science double major at the

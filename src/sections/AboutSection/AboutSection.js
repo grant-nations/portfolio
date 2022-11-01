@@ -1,5 +1,6 @@
 import "./AboutSection.css";
 import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
+import BackRocket from "../../components/BackRocket/BackRocket";
 
 function AboutSection({exitSection}) {
 
@@ -8,6 +9,7 @@ function AboutSection({exitSection}) {
             <div className="section-header">
                 <h2 className="section-title">About</h2>
                 <ReturnToShip exitSection={exitSection}/>
+                <BackRocket exitSection={exitSection}/>
             </div>
             <p className="section-text">Yo, I’m Grant Nations.</p>
             <p className="section-text">I’m a fourth year student at the University of Utah double majoring in computer
