@@ -5,14 +5,27 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /*overflow: hidden;*/
 }
 
-/*html{*/
-/*    overflow: hidden;*/
-/*}*/
+html{
+    /*overflow: hidden;*/
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    word-wrap: break-word;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+/** {*/
+/*    outline: 1px solid #f00 !important;*/
+/*}*/

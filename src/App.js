@@ -62,7 +62,7 @@ function App() {
     }
 
     return (
-        <div className="home-page">
+        <div className={`home-page${sectionView ? " home-scroll-lock" : " home-scroll-auto"}`}>
             <div onClick={exitSection} className={sectionView ? "cloud" : ""}/>
             <header className="home-header">
                 <h1 className="home-header-title">

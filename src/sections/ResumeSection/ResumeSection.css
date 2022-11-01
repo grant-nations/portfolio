@@ -48,3 +48,9 @@
     align-items: flex-start;
     flex-direction: column;
 }
+
+@media (max-width: 850px) {
+    .resume-download{
+        font-size: 16px;
+    }
+}
