@@ -111,7 +111,6 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     word-wrap: break-word;
-    -webkit-overflow-scrolling: touch;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -328,6 +327,10 @@
         padding-bottom: 80px;
     }
 
+    .section-base:last-child{
+        padding-bottom: 0;
+    }
+
     .projects {
         left: unset;
         top: unset;
@@ -369,7 +372,12 @@
         margin-bottom: 86px;
     }
 
+    .home-header {
+        padding-top: 0;
+    }
+
     .home-page {
+        padding: 60px 0;
         -webkit-overflow-scrolling: touch;
         height: -webkit-fill-available;
     }
