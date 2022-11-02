@@ -84,8 +84,7 @@ function ResumeSection({exitSection}) {
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">University of Utah College of Science —
-                        PANDA (Physics and Astronomy) Network Mentor
-                        Intern</p>
+                        PANDA (Physics and Astronomy) Network Mentor</p>
                     <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Lead group activities for freshman students to explore their opportunities within the
@@ -97,10 +96,7 @@ function ResumeSection({exitSection}) {
                     </ul>
                 </div>
                 <div>
-                    <p className="section-text resume-section-subsection-item">University of Utah College of Engineering
-                        —
-                        Undergraduate Research Assistant
-                        Intern</p>
+                    <p className="section-text resume-section-subsection-item">University of Utah College of Engineering — Undergraduate Research Assistant</p>
                     <p className="date-range">September 2021 - April 2022, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Assist in the research of high temperature reference electrodes for use in molten salt
