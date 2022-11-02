@@ -17,6 +17,8 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
     overflow-x: hidden;
 }
 
@@ -98,8 +100,8 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    position: absolute;
-    min-height: 100vh;
+    position: fixed;
+    height: 100vh;
     left: 0;
     top: 0;
     right: 0;
@@ -111,6 +113,9 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    overflow-x: hidden;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -378,8 +383,14 @@
 
     .home-page {
         padding: 60px 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        box-sizing: border-box;
         -webkit-overflow-scrolling: touch;
-        height: -webkit-fill-available;
+        width: unset;
+        height: unset;
     }
 
     .section {
