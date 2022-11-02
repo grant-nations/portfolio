@@ -63,47 +63,49 @@ function App() {
     }
 
     return (
-        <div className={`home-page${sectionView ? " home-scroll-lock" : " home-scroll-auto"}`}>
-            <div onClick={exitSection} className={sectionView ? "cloud" : ""}/>
-            <header className="home-header">
-                <h1 className="home-header-title">
-                    Grant Nations
-                </h1>
-            </header>
-            <div>
-                <div className="section-base about">
-                    <img onClick={handleAboutClick} src={green} alt="Green Planet"
-                         className="planet-hover planet-base green-planet"/>
-                    <h3 onClick={handleAboutClick} className="effect-underline base-title">About</h3>
+        <div className="home-fixed-wrapper">
+            <div className={`home-page${sectionView ? " home-scroll-lock" : " home-scroll-auto"}`}>
+                <div onClick={exitSection} className={sectionView ? "cloud" : ""}/>
+                <header className="home-header">
+                    <h1 className="home-header-title">
+                        Grant Nations
+                    </h1>
+                </header>
+                <div>
+                    <div className="section-base about">
+                        <img onClick={handleAboutClick} src={green} alt="Green Planet"
+                             className="planet-hover planet-base green-planet"/>
+                        <h3 onClick={handleAboutClick} className="effect-underline base-title">About</h3>
+                    </div>
+                    <div className="section-base projects">
+                        <img src={star} alt="Star" className="planet-base star"/>
+                        <h3 onClick={handleProjectsClick}
+                            className="effect-underline base-title projects-title">Projects</h3>
+                        <div onClick={handleProjectsClick} className="projects-hover-div planet-hover"/>
+                    </div>
+                    <div className="section-base academics">
+                        <img onClick={handleAcademicsClick} src={red} alt="Red Planet"
+                             className="planet-hover planet-base red-planet"/>
+                        <h3 onClick={handleAcademicsClick} className="effect-underline base-title">Academics</h3>
+                    </div>
+                    <div className="section-base resume">
+                        <img onClick={handleResumeClick} src={blue_white} alt="Blue Planet"
+                             className="planet-hover planet-base blue-white-planet"/>
+                        <h3 onClick={handleResumeClick} className="effect-underline base-title">Resume</h3>
+                    </div>
+                    <div className="section-base contact">
+                        <img onClick={handleContactClick} src={pink} alt="Pink Planet"
+                             className="planet-hover planet-base pink-planet"/>
+                        <h3 onClick={handleContactClick} className="effect-underline base-title">Contact</h3>
+                    </div>
                 </div>
-                <div className="section-base projects">
-                    <img src={star} alt="Star" className="planet-base star"/>
-                    <h3 onClick={handleProjectsClick}
-                        className="effect-underline base-title projects-title">Projects</h3>
-                    <div onClick={handleProjectsClick} className="projects-hover-div planet-hover"/>
+                <div className="section-container">
+                    {contactView && <ContactSection exitSection={exitSection}/>}
+                    {academicsView && <AcademicsSection exitSection={exitSection}/>}
+                    {aboutView && <AboutSection exitSection={exitSection}/>}
+                    {projectsView && <ProjectsSection exitSection={exitSection}/>}
+                    {resumeView && <ResumeSection exitSection={exitSection}/>}
                 </div>
-                <div className="section-base academics">
-                    <img onClick={handleAcademicsClick} src={red} alt="Red Planet"
-                         className="planet-hover planet-base red-planet"/>
-                    <h3 onClick={handleAcademicsClick} className="effect-underline base-title">Academics</h3>
-                </div>
-                <div className="section-base resume">
-                    <img onClick={handleResumeClick} src={blue_white} alt="Blue Planet"
-                         className="planet-hover planet-base blue-white-planet"/>
-                    <h3 onClick={handleResumeClick} className="effect-underline base-title">Resume</h3>
-                </div>
-                <div className="section-base contact">
-                    <img onClick={handleContactClick} src={pink} alt="Pink Planet"
-                         className="planet-hover planet-base pink-planet"/>
-                    <h3 onClick={handleContactClick} className="effect-underline base-title">Contact</h3>
-                </div>
-            </div>
-            <div className="section-container">
-                {contactView && <ContactSection exitSection={exitSection}/>}
-                {academicsView && <AcademicsSection exitSection={exitSection}/>}
-                {aboutView && <AboutSection exitSection={exitSection}/>}
-                {projectsView && <ProjectsSection exitSection={exitSection}/>}
-                {resumeView && <ResumeSection exitSection={exitSection}/>}
             </div>
         </div>
     );
