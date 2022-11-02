@@ -17,7 +17,7 @@
     margin: 2px 0 0 2px;
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 901px) {
     .back-rocket{
         display: none;
     }

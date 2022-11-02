@@ -79,9 +79,9 @@ function App() {
                     </div>
                     <div className="section-base projects">
                         <img src={star} alt="Star" className="planet-base star"/>
+                        <div onClick={handleProjectsClick} className="projects-hover-div planet-hover"/>
                         <h3 onClick={handleProjectsClick}
                             className="effect-underline base-title projects-title">Projects</h3>
-                        <div onClick={handleProjectsClick} className="projects-hover-div planet-hover"/>
                     </div>
                     <div className="section-base academics">
                         <img onClick={handleAcademicsClick} src={red} alt="Red Planet"
