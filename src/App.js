@@ -21,6 +21,7 @@ function App() {
     const [contactView, setContactView] = useState(false);
     const [resumeView, setResumeView] = useState(false);
 
+
     const handleAboutClick = () => {
         if (!sectionView) {
             setSectionView(true);
@@ -109,3 +110,5 @@ function App() {
 }
 
 export default App;
+
+

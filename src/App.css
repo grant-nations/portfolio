@@ -85,13 +85,11 @@
 
 .home-page {
     background: url('background/coffee-space-cake.png');
-    /*min-height: 100vh;*/
-    /*min-width: 100vw;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     min-height: 100vh;
     left: 0;
     top: 0;
@@ -297,7 +295,7 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
 
     .contact {
         left: unset;
@@ -366,6 +364,7 @@
 
     .section {
         width: unset;
+        height: unset;
         right: 0;
         left: 0;
         top: 0;
@@ -373,8 +372,6 @@
         box-sizing: border-box;
         border-radius: unset;
         overflow-wrap: anywhere;
-        height: unset;
-        /*min-height: -webkit-fill-available;*/
         -webkit-overflow-scrolling: touch;
         padding: 30px;
     }
