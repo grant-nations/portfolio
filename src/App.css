@@ -371,6 +371,7 @@
 
     .home-page {
         -webkit-overflow-scrolling: touch;
+        height: -webkit-fill-available;
     }
 
     .section {
