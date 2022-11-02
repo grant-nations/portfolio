@@ -17,8 +17,8 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     word-wrap: break-word;
-    overflow-wrap: anywhere;
-    word-break: break-all;
+    overflow-wrap: break-word;
+    word-break: normal;
     overflow-x: hidden;
 }
 
@@ -113,8 +113,8 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     word-wrap: break-word;
-    overflow-wrap: anywhere;
-    word-break: break-all;
+    /*overflow-wrap: anywhere;*/
+    word-break: normal;
     overflow-x: hidden;
 }
 

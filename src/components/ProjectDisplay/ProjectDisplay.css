@@ -67,6 +67,7 @@
     text-decoration: none;
     margin: 0;
     display: block;
+    word-break: break-all;
 }
 
 .project-link:last-child{
