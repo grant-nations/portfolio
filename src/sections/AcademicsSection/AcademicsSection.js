@@ -46,7 +46,6 @@ function AcademicsSection({exitSection}) {
             </ul>
             <p className="section-list-item-title">Physics:</p>
             <ul className="section-list">
-                <li>PHYS 1980 Undergrad Seminar I</li>
                 <li>PHYS 2210 Physics For Scientists and Engineers I</li>
                 <li>PHYS 2215 Physics Lab I for Scientists and Engineers</li>
                 <li>PHYS 2220 Physics For Scientists and Engineers II</li>
@@ -54,7 +53,6 @@ function AcademicsSection({exitSection}) {
                 <li>PHYS 2235 Computational Lab</li>
                 <li>PHYS 3740 Introduction to Quantum Mechanics and Relativity</li>
                 <li>PHYS 3760 Thermodynamics and Statistical Mechanics</li>
-                <li>PHYS 3980 Undergrad Seminar II</li>
             </ul>
             <p className="section-list-item-title">Other Stuff:</p>
             <ul className="section-list">
@@ -65,8 +63,15 @@ function AcademicsSection({exitSection}) {
                 <li>WRTG 3015 Professional Writing</li>
                 <li>PSY 1010 General Psychology</li>
             </ul>
-            <p className="section-text">Here are some awards/scholarships that I’ve received:</p>
+            <p className="section-text">Here are some scholarships and awards that I’ve received:</p>
             <ul className="section-list">
+                <li className="award-list-item">John Council Memorial Scholarship, Foundation for IT Education 2022
+                    <ul>
+                        <li>A scholarship awarded to individuals seeking a degree in an information technology-related
+                            program on the basis of scholastic ability and leadership potential.
+                        </li>
+                    </ul>
+                </li>
                 <li className="award-list-item">Inspiring Futures Scholarship, Mister Cares Foundation 2022
                     <ul>
                         <li>A financial award that supports individuals passionate about improving their knowledge and
