@@ -11,10 +11,8 @@ function AcademicsSection({exitSection}) {
                 <BackRocket exitSection={exitSection}/>
             </div>
             {/*<span style={{fontWeight: 700}}>TL;DR:</span>*/}
-            <p className="section-text section-description"> I'm a physics and computer science double major at the
-                University of Utah with
-                a 4.0 GPA. In computer science my focus is artificial intelligence and my physics emphasis is
-                in computational physics and astronomy.</p>
+            <p className="section-text section-description"> I'm a computer science and computational physics double major at the
+                University of Utah with a 4.0 GPA.</p>
             <p className="section-text">I started out studying mechanical engineering at the University of Utah, but
                 after one year I realized how cool programming was and switched to computer science. A year after being
                 in computer science, I became interested in physics during a conversation about a “space elevator” and
@@ -28,21 +26,16 @@ function AcademicsSection({exitSection}) {
                 <li>CS 1410 Object-Oriented Programming</li>
                 <li>CS 2100 Discrete Structures</li>
                 <li>CS 2420 Intro to Algorithms and Data Structures</li>
+                <li>CS 3100 Models of Computation</li>
                 <li>CS 3130 Engineering Probability and Statistics</li>
                 <li>CS 3190 Foundations of Data Analysis</li>
                 <li>CS 3500 Software Practice</li>
                 <li>CS 3505 Software Practice II</li>
                 <li>CS 3810 Computer Organization</li>
                 <li>CS 4150 Algorithms</li>
+                <li>CS 4400 Computer Systems</li>
                 <li>CS 4440 Computer Security</li>
-            </ul>
-            <p className="section-list-item-title">Math:</p>
-            <ul className="section-list">
-                <li>MATH 1220 Calculus II</li>
-                <li>MATH 2210 Calculus III</li>
-                <li>MATH 2250 Differential Equations and Linear Algebra</li>
-                <li>MATH 3150 Partial Differential Equations for Engineers</li>
-                <li>MATH 3160 Applied Complex Variables</li>
+                <li>CS 5610 Interactive Computer Graphics</li>
             </ul>
             <p className="section-list-item-title">Physics:</p>
             <ul className="section-list">
@@ -51,8 +44,17 @@ function AcademicsSection({exitSection}) {
                 <li>PHYS 2220 Physics For Scientists and Engineers II</li>
                 <li>PHYS 2225 Physics Lab II for Scientists and Engineers</li>
                 <li>PHYS 2235 Computational Lab</li>
+                <li>PHYS 3010 Intermediate Mechanics</li>
                 <li>PHYS 3740 Introduction to Quantum Mechanics and Relativity</li>
                 <li>PHYS 3760 Thermodynamics and Statistical Mechanics</li>
+            </ul>
+            <p className="section-list-item-title">Math:</p>
+            <ul className="section-list">
+                <li>MATH 1220 Calculus II</li>
+                <li>MATH 2210 Calculus III</li>
+                <li>MATH 2250 Differential Equations and Linear Algebra</li>
+                <li>MATH 3150 Partial Differential Equations for Engineers</li>
+                <li>MATH 3160 Applied Complex Variables</li>
             </ul>
             <p className="section-list-item-title">Other Stuff:</p>
             <ul className="section-list">

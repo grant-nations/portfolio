@@ -57,9 +57,10 @@ function ResumeSection({exitSection}) {
                 <p className="date-range">Fall 2019 - Spring 2024</p>
                 <ul className="section-list">
                     <li>4.0 Cumulative GPA</li>
-                    <li>Student athlete on Varsity Swim and Dive, Fall 2019 - Spring 2021</li>
+                    <li>Computational physics emphasis</li>
                     <li>Academic Excellence full tuition scholarship recipient</li>
                     <li>National Merit Commended Scholar</li>
+                    <li>Student athlete on Varsity Swim and Dive, Fall 2019 - Spring 2021</li>
                 </ul>
             </div>
             <div>
@@ -70,16 +71,14 @@ function ResumeSection({exitSection}) {
                         Intern</p>
                     <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
-                        <li>Assist mission logic team in the development of an autonomous Earth orbiting satellite
-                            observation system using a network of high-powered sensors (telescopes) distributed across
-                            the
-                            globe.
+                        <li>Research and develop a mixed-integer nonlinear programming model and parallel machine
+                            scheduler for observations of Earth-orbiting satellites to produce dense, high quality
+                            schedules.
                         </li>
-                        <li>Research and develop a mixed-integer programming model and near-optimal scheduler for
-                            prioritized observations of Earth orbiting satellites with the expected outcome of producing
-                            efficient schedules of high quality observations.
+                        <li>Implement scheduling model in Python using the GEKKO optimization library.
                         </li>
-                        <li>Present progress and discuss future direction in biweekly team meetings.</li>
+                        <li>Modify scheduling API to handle multi-site observation schedule requests.</li>
+                        <li>Communicate progress and future direction in biweekly team meetings.</li>
                     </ul>
                 </div>
                 <div>
@@ -96,7 +95,8 @@ function ResumeSection({exitSection}) {
                     </ul>
                 </div>
                 <div>
-                    <p className="section-text resume-section-subsection-item">University of Utah College of Engineering — Undergraduate Research Assistant</p>
+                    <p className="section-text resume-section-subsection-item">University of Utah College of Engineering
+                        — Undergraduate Research Assistant</p>
                     <p className="date-range">September 2021 - April 2022, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Assist in the research of high temperature reference electrodes for use in molten salt
@@ -117,13 +117,12 @@ function ResumeSection({exitSection}) {
                              href="https://kana-shuffle.herokuapp.com">kana-shuffle.herokuapp.com</a>
                     </p>
                     <ul className="section-list">
-                        <li>Solves the problem of memorizing character order when practicing writing hiragana and
+                        <li>Solve the problem of memorizing character order when practicing writing hiragana and
                             katakana Japanese characters.
                         </li>
-                        <li>Provides users with hiragana and katakana practice sheets that are randomly ordered on each
-                            download.
+                        <li>Create randomly ordered hiragana and katakana for users to download.
                         </li>
-                        <li>Uses React.js, Node, and Express; Hosted on Heroku.</li>
+                        <li>Use React.js, Node, Express, and Heroku.</li>
                     </ul>
                 </div>
                 <div>
@@ -131,11 +130,12 @@ function ResumeSection({exitSection}) {
                         — <a className="link" target="_blank" rel="noopener noreferrer"
                              href="https://www.aboutpupil.com">www.aboutpupil.com</a></p>
                     <ul className="section-list">
-                        <li>Streamlined the use of hybrid classroom technology for professors and students on college
-                            campuses.
+                        <li>Lead a team of three students working on a hardware/software solution to streamline the use
+                            of hybrid classroom technology for professors and students on college campuses.
                         </li>
-                        <li>Implemented using React, Redux, and Django; Landing page hosted on Amplify.
+                        <li>Prototype automated recording system using a Raspberry Pi, Django, and Celery.
                         </li>
+                        <li>Use React, Redux, Django, Raspberry Pi, Celery, and Amazon S3.</li>
                     </ul>
                 </div>
                 <div>
@@ -144,15 +144,15 @@ function ResumeSection({exitSection}) {
                              href="https://heartfelt-frangipane-722cca.netlify.app/">heartfelt-frangipane-722cca.netlify.app/</a>
                     </p>
                     <ul className="section-list">
-                        <li>Simulates an at-scale e-commerce application using React, Redux, Firebase, and Styled
-                            Components.
+                        <li>Simulate an at-scale e-commerce application for a fake brand Crown Clothing using React, Redux, and Firebase.
                         </li>
                         <li>
-                            Maintains user sessions with Redux Persist.
+                            Maintain user sessions with Redux Persist.
                         </li>
                         <li>
-                            Handles application state with React Context, Redux Thunks, and Redux Sagas.
+                            Handle application state with React Context, Redux Thunks, and Redux Sagas.
                         </li>
+                        <li>Use React, Redux, and Firebase.</li>
                     </ul>
                 </div>
             </div>
@@ -173,10 +173,12 @@ function ResumeSection({exitSection}) {
                     <li>Algorithms</li>
                     <li>Software Practice I & II</li>
                     <li>Engineering Probability and Statistics</li>
-                    <li>Linear Algebra and Differential Equations</li>
                     <li>Partial Differential Equations for Engineers</li>
                     <li>Computer Security</li>
                     <li>Thermodynamics and Statistical Mechanics</li>
+                    <li>Computer Systems</li>
+                    <li>Interactive Computer Graphics</li>
+                    <li>Intermediate Mechanics</li>
                 </ul>
             </div>
             <div>
@@ -184,13 +186,13 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">Languages</p>
                     <ul className="section-list">
-                        <li>C++, Java, MATLAB, Python, C#, Javascript, Typescript, Solidity, HTML, CSS, SQL</li>
+                        <li>C, C++, Java, MATLAB, Python, C#, Javascript, Typescript, Solidity, HTML, CSS, SQL</li>
                     </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">Frameworks/RTEs/Libraries</p>
                     <ul className="section-list">
-                        <li>NumPy, Redux, React, Qt, Express, Node.js</li>
+                        <li>NumPy, GEKKO, Astroplan, Skyfield, SciPy, Redux, React, Qt, Express, Node.js</li>
                     </ul>
                 </div>
                 <div>
