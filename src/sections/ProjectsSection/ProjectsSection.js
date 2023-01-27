@@ -25,7 +25,7 @@ import BackRocket from "../../components/BackRocket/BackRocket";
 
 function ProjectsSection({exitSection}) {
 
-    const schedulerDescription = ["Space Domain Awareness (SDA) is the study and monitoring of satellites orbiting the earth. As a software development/computer science intern at KBR, I am responsible for developing a mixed-integer programming (MIP) model to be used in scheduling SDA observations. This project has significant real-world impacts and is by far the largest and most complex programming problem that I have tackled. Since starting work on it in August, I have nearly finished developing the MIP model and will soon start testing with real data. Going forward, I will be researching and developing decomposition methods for optimally solving the MIP as well as faster, heuristic-based algorithms for adequate solutions."]
+    const schedulerDescription = ["Space Domain Awareness (SDA) is the study and monitoring of satellites orbiting the earth. As a operations research engineering intern at KBR, I am responsible for researching and developing a mixed-integer programming (MIP) model to be used in scheduling SDA observations. This project has significant real-world impacts and is by far the largest and most complex programming problem that I have tackled. (Paper coming soon.)"]
     const mustangDescription = ["In 2015, I got a 1966 Mustang as my first car. It didn’t have an engine, the transmission was hanging by a wire, and the floors had gaping holes in them. Over the course of the next year, I went from knowing nothing about cars to rebuilding my own, and as a sophomore in high school I got to have a loud, slightly rusty yellow hot rod as my daily driver. My friends called it “The Crustang”, and the name stuck. Sadly, someone on their phone rear ended me at a stop light one day, totalling my car.",
         "I got to build another Mustang though, and this time around I knew what I was doing. I spent another year turning another 1966 Mustang with an inline-six engine into my dream car. I took the newly-rebuilt V8 engine, four speed manual transmission, suspension, and anything else I could from The Crustang to beef up my new car. I named it “Dani California” after the song by the Red Hot Chili Peppers. I finished Dani California right before senior prom, with yellow-pearl paint that perfectly matched my date’s dress and my tie."]
 
@@ -91,6 +91,8 @@ function ProjectsSection({exitSection}) {
 
     const [lockScroll, setLockScroll] = useState(false);
 
+
+
     return (
         <div className={`section ${lockScroll ? "scroll-lock" : "scroll-auto"}`}>
             <div className="section-header">
@@ -98,9 +100,7 @@ function ProjectsSection({exitSection}) {
                 <ReturnToShip exitSection={exitSection}/>
                 <BackRocket exitSection={exitSection}/>
             </div>
-            <p className="section-text">Personal projects from mechanical to online and everything in between. Sorted
-                from coolest to
-                least cool. </p>
+            {/*<p className="section-text">Personal projects from mechanical to online and everything in between.</p>*/}
             <div>
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
@@ -122,6 +122,18 @@ function ProjectsSection({exitSection}) {
                 />
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
+                    startDate="July 2022"
+                    name="Kana Shuffle"
+                    descriptions={["Kana Shuffle is a web application that allows users to download Japanese hiragana, katakana, and romaji practice sheets whose characters are in a different order each time. It addresses a problem I noticed when learning to read Japanese, in that I had a difficult time remembering hiragana and katakana if the worksheet I was using was in a different order. This application is built using Node.js/express backend and React.js frontend."]}
+                    number={"3"}
+                    images={kanaPhotos}
+                    links={[
+                        {href: "https://kana-shuffle.herokuapp.com/", text:"kana-shuffle.herokuapp.com"},
+                        {href: "https://github.com/grant-nations/kana-shuffle", text:"github.com/grant-nations/kana-shuffle"}
+                    ]}
+                />
+                <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="September 2021"
                     endDate="January 2022"
                     name="Pupil"
@@ -131,20 +143,8 @@ function ProjectsSection({exitSection}) {
                         {href: "https://github.com/PUPILorg/pupil_landing_frontend", text: "github.com/PUPILorg/pupil_landing_frontend"}
                     ]}
                     descriptions={pupilDescription}
-                    number={"3"}
-                    images={pupilPhotos}/>
-                <ProjectDisplay
-                    setLockScroll={setLockScroll}
-                    startDate="July 2022"
-                    name="Kana Shuffle"
-                    descriptions={["Kana Shuffle is a web application that allows users to download Japanese hiragana, katakana, and romaji practice sheets whose characters are in a different order each time. It addresses a problem I noticed when learning to read Japanese, in that I had a difficult time remembering hiragana and katakana if the worksheet I was using was in a different order. This application is built using Node.js/express backend and React.js frontend."]}
                     number={"4"}
-                    images={kanaPhotos}
-                    links={[
-                        {href: "https://kana-shuffle.herokuapp.com/", text:"kana-shuffle.herokuapp.com"},
-                        {href: "https://github.com/grant-nations/kana-shuffle", text:"github.com/grant-nations/kana-shuffle"}
-                    ]}
-                />
+                    images={pupilPhotos}/>
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="May 2022"
@@ -177,7 +177,7 @@ function ProjectsSection({exitSection}) {
                     setLockScroll={setLockScroll}
                     startDate="April 2020"
                     name="Tachometer Mount"
-                    descriptions={["In 1966, Mustangs did not generally come from the factory with a tachometer. I wanted to install one, but didn’t like how the only mounting option available was a hose clamp. I designed my own tachometer mounts in SolidWorks and 3D printed them. PLA melts if left in a car in Tucson, so the plan was to later machine them out of aluminum."]}
+                    descriptions={["In 1966, Mustangs didn't generally come from the factory with a tachometer. I wanted to install one, but didn’t like how the only mounting option available was a hose clamp. I designed my own tachometer mounts in SolidWorks and 3D printed them. PLA melts if left in a car in Tucson, so the plan was to later machine them out of aluminum."]}
                     number={"8"}
                     images={tachPhotos}/>
                 <ProjectDisplay

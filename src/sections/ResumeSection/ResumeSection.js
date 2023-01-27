@@ -56,7 +56,7 @@ function ResumeSection({exitSection}) {
                     Computer Science, BS Physics</p>
                 <p className="date-range">Fall 2019 - Spring 2024</p>
                 <ul className="section-list">
-                    <li>4.0 Cumulative GPA</li>
+                    <li>3.99 Cumulative GPA</li>
                     <li>Computational physics emphasis</li>
                     <li>Academic Excellence full tuition scholarship recipient</li>
                     <li>National Merit Commended Scholar</li>
@@ -66,31 +66,41 @@ function ResumeSection({exitSection}) {
             <div>
                 <p className="section-subtitle">Work History</p>
                 <div>
-                    <p className="section-text resume-section-subsection-item">KBR — Software Development/Computer
-                        Science
+                    <p className="section-text resume-section-subsection-item">KBR — Operations Research Engineering
                         Intern</p>
                     <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
-                        <li>Research and develop a mixed-integer nonlinear programming model and parallel machine
-                            scheduler for observations of Earth-orbiting satellites to produce dense, high quality
-                            schedules.
+                        <li>Research and develop a mixed-integer programming model and parallel machine scheduler for
+                            observations of Earth-orbiting satellites to produce dense, high quality schedules.
                         </li>
-                        <li>Implement scheduling model in Python using the GEKKO optimization library.
+                        <li>Research and develop algorithms implementing logic-based benders decomposition to reduce the
+                            time needed to solve programming models.
                         </li>
-                        <li>Modify scheduling API to handle multi-site observation schedule requests.</li>
+                        <li>Implement MIP models and decomposition algorithms in Python using the GEKKO optimization
+                            library.
+                        </li>
+                        <li>Adapt the open-source Python package Astroplan to be usable within space domain awareness
+                            applications.
+                        </li>
+                        <li>Modify satellite observation scheduling API to handle requests from multiple telescopes in
+                            different geographical locations.
+                        </li>
                         <li>Communicate progress and future direction in biweekly team meetings.</li>
                     </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">University of Utah College of Science —
-                        PANDA (Physics and Astronomy) Network Mentor</p>
+                        PANDA (Physics AND Astronomy) Network Mentor and Committee Member</p>
                     <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
-                        <li>Lead group activities for freshman students to explore their opportunities within the
-                            Physics and Astronomy department and university.
+                        <li>Prepare and lead group activities for freshman students to explore their opportunities
+                            within the Physics and Astronomy department and university.
                         </li>
-                        <li>Discuss plans with Physics and Astronomy professors to achieve the best outcome for students
-                            in the freshman seminar.
+                        <li>Serve as a mentor to freshman students to aid in their navigation of career paths,
+                            academics, and the university.
+                        </li>
+                        <li>Discuss plans with Physics and Astronomy professors and mentors to achieve the best outcome
+                            for students in the freshman seminar.
                         </li>
                     </ul>
                 </div>
@@ -105,6 +115,10 @@ function ResumeSection({exitSection}) {
                         <li>Run short term and long term OCP, CV, and EIS analysis of three-electrode cell with
                             high-temperature salt electrolyte to determine production feasibility of reference
                             electrodes.
+                        </li>
+                        <li>Analyze electrolyte solution during long term tests using ICP-MS and auto titration.</li>
+                        <li>Use inductively coupled plasma mass spectrometry (ICP-MS) to detect concentrations of
+                            specified metals within electrolyte solutions.
                         </li>
                     </ul>
                 </div>
@@ -144,7 +158,8 @@ function ResumeSection({exitSection}) {
                              href="https://heartfelt-frangipane-722cca.netlify.app/">heartfelt-frangipane-722cca.netlify.app/</a>
                     </p>
                     <ul className="section-list">
-                        <li>Simulate an at-scale e-commerce application for a fake brand Crown Clothing using React, Redux, and Firebase.
+                        <li>Simulate an at-scale e-commerce application for a fake brand Crown Clothing using React,
+                            Redux, and Firebase.
                         </li>
                         <li>
                             Maintain user sessions with Redux Persist.
@@ -178,7 +193,7 @@ function ResumeSection({exitSection}) {
                     <li>Thermodynamics and Statistical Mechanics</li>
                     <li>Computer Systems</li>
                     <li>Interactive Computer Graphics</li>
-                    <li>Intermediate Mechanics</li>
+                    <li>Mechanics</li>
                 </ul>
             </div>
             <div>
@@ -198,7 +213,7 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">Tools</p>
                     <ul className="section-list">
-                        <li>SolidWorks, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify,
+                        <li>SolidWorks, Canva, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify,
                             Heroku
                         </li>
                     </ul>

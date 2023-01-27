@@ -18,7 +18,7 @@ function AboutSection({exitSection}) {
                 and successes in athletics have shaped me to be perseverant, hard-working, and competitive. My
                 experiences in academics have taught me to be open-minded, always curious, and a big dreamer.
             </p>
-            <p className="section-text"> My interests are in artificial intelligence, fusion energy, augmented reality,
+            <p className="section-text"> My interests are in social robotics, artificial intelligence, fusion energy, augmented reality,
                 and commercial spaceflight. I aim to someday create technology that changes the world for the better.
             </p>
         </div>

@@ -12,21 +12,20 @@ function AcademicsSection({exitSection}) {
             </div>
             {/*<span style={{fontWeight: 700}}>TL;DR:</span>*/}
             <p className="section-text section-description"> I'm a computer science and computational physics double major at the
-                University of Utah with a 4.0 GPA.</p>
+                University of Utah with a 3.99 GPA.</p>
             <p className="section-text">I started out studying mechanical engineering at the University of Utah, but
                 after one year I realized how cool programming was and switched to computer science. A year after being
                 in computer science, I became interested in physics during a conversation about a “space elevator” and
                 the next day added physics as a second major. Currently, I am in my fourth year out of five and will
                 graduate in the spring of 2023 with a BCS in computer science and a BS in physics with a computational
                 physics emphasis. Following graduation I plan to earn my master’s degree in computer science with a
-                focus on artificial intelligence from Stanford University.</p>
+                focus on artificial intelligence and robotics.</p>
             <p className="section-text">Here’s a list of my college courses to date (excluding most gen-eds):</p>
             <p className="section-list-item-title">Computer science:</p>
             <ul className="section-list">
                 <li>CS 1410 Object-Oriented Programming</li>
                 <li>CS 2100 Discrete Structures</li>
                 <li>CS 2420 Intro to Algorithms and Data Structures</li>
-                <li>CS 3100 Models of Computation</li>
                 <li>CS 3130 Engineering Probability and Statistics</li>
                 <li>CS 3190 Foundations of Data Analysis</li>
                 <li>CS 3500 Software Practice</li>
@@ -58,6 +57,7 @@ function AcademicsSection({exitSection}) {
             </ul>
             <p className="section-list-item-title">Other Stuff:</p>
             <ul className="section-list">
+                <li>ECE 3610 Fundamentals of Robotics and Cyberphysical systems</li>
                 <li>ME EN 1000 Introduction to Design for Engineering Systems</li>
                 <li>ME EN 1010 Computer Problem Solving for Engineering Systems</li>
                 <li>CHEM 1210 General Chemistry I</li>
