@@ -53,7 +53,7 @@ function ResumeSection({exitSection}) {
             <div>
                 <p className="section-subtitle">Education</p>
                 <p className="section-text resume-section-subsection-item">University of Utah, Salt Lake City, UT — BCS
-                    Computer Science, BS Physics</p>
+                    Computer Science, Physics Minor</p>
                 <p className="date-range">Fall 2019 - Spring 2024</p>
                 <ul className="section-list">
                     <li>3.99 Cumulative GPA</li>
@@ -68,7 +68,7 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">KBR — Operations Research Engineering
                         Intern</p>
-                    <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
+                    <p className="date-range">December 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Research and develop a mixed-integer programming model and parallel machine scheduler for
                             observations of Earth-orbiting satellites to produce dense, high quality schedules.
@@ -79,6 +79,13 @@ function ResumeSection({exitSection}) {
                         <li>Implement MIP models and decomposition algorithms in Python using the GEKKO optimization
                             library.
                         </li>
+                    </ul>
+                </div>
+                <div>
+                    <p className="section-text resume-section-subsection-item">KBR — Software Development
+                        Intern</p>
+                    <p className="date-range">August 2022 - December 2022, Salt Lake City, UT</p>
+                    <ul className="section-list">
                         <li>Adapt the open-source Python package Astroplan to be usable within space domain awareness
                             applications.
                         </li>
@@ -193,7 +200,6 @@ function ResumeSection({exitSection}) {
                     <li>Thermodynamics and Statistical Mechanics</li>
                     <li>Computer Systems</li>
                     <li>Interactive Computer Graphics</li>
-                    <li>Mechanics</li>
                 </ul>
             </div>
             <div>

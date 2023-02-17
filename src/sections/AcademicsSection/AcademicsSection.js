@@ -10,50 +10,48 @@ function AcademicsSection({exitSection}) {
                 <ReturnToShip exitSection={exitSection}/>
                 <BackRocket exitSection={exitSection}/>
             </div>
-            {/*<span style={{fontWeight: 700}}>TL;DR:</span>*/}
-            <p className="section-text section-description"> I'm a computer science and computational physics double major at the
+            <p className="section-text section-description"> I'm a computer science major and physics minor at the
                 University of Utah with a 3.99 GPA.</p>
             <p className="section-text">I started out studying mechanical engineering at the University of Utah, but
                 after one year I realized how cool programming was and switched to computer science. A year after being
                 in computer science, I became interested in physics during a conversation about a “space elevator” and
-                the next day added physics as a second major. Currently, I am in my fourth year out of five and will
+                the next day added physics as a minor. Currently, I am in my fourth year out of five and will
                 graduate in the spring of 2023 with a BCS in computer science and a BS in physics with a computational
                 physics emphasis. Following graduation I plan to earn my master’s degree in computer science with a
                 focus on artificial intelligence and robotics.</p>
             <p className="section-text">Here’s a list of my college courses to date (excluding most gen-eds):</p>
             <p className="section-list-item-title">Computer science:</p>
             <ul className="section-list">
-                <li>CS 1410 Object-Oriented Programming</li>
-                <li>CS 2100 Discrete Structures</li>
-                <li>CS 2420 Intro to Algorithms and Data Structures</li>
-                <li>CS 3130 Engineering Probability and Statistics</li>
-                <li>CS 3190 Foundations of Data Analysis</li>
-                <li>CS 3500 Software Practice</li>
-                <li>CS 3505 Software Practice II</li>
-                <li>CS 3810 Computer Organization</li>
-                <li>CS 4150 Algorithms</li>
-                <li>CS 4400 Computer Systems</li>
-                <li>CS 4440 Computer Security</li>
                 <li>CS 5610 Interactive Computer Graphics</li>
-            </ul>
-            <p className="section-list-item-title">Physics:</p>
-            <ul className="section-list">
-                <li>PHYS 2210 Physics For Scientists and Engineers I</li>
-                <li>PHYS 2215 Physics Lab I for Scientists and Engineers</li>
-                <li>PHYS 2220 Physics For Scientists and Engineers II</li>
-                <li>PHYS 2225 Physics Lab II for Scientists and Engineers</li>
-                <li>PHYS 2235 Computational Lab</li>
-                <li>PHYS 3010 Intermediate Mechanics</li>
-                <li>PHYS 3740 Introduction to Quantum Mechanics and Relativity</li>
-                <li>PHYS 3760 Thermodynamics and Statistical Mechanics</li>
+                <li>CS 4440 Computer Security</li>
+                <li>CS 4400 Computer Systems</li>
+                <li>CS 4150 Algorithms</li>
+                <li>CS 3810 Computer Organization</li>
+                <li>CS 3505 Software Practice II</li>
+                <li>CS 3500 Software Practice</li>
+                <li>CS 3190 Foundations of Data Analysis</li>
+                <li>CS 3130 Engineering Probability and Statistics</li>
+                <li>CS 2420 Intro to Algorithms and Data Structures</li>
+                <li>CS 2100 Discrete Structures</li>
+                <li>CS 1410 Object-Oriented Programming</li>
             </ul>
             <p className="section-list-item-title">Math:</p>
             <ul className="section-list">
-                <li>MATH 1220 Calculus II</li>
-                <li>MATH 2210 Calculus III</li>
-                <li>MATH 2250 Differential Equations and Linear Algebra</li>
-                <li>MATH 3150 Partial Differential Equations for Engineers</li>
                 <li>MATH 3160 Applied Complex Variables</li>
+                <li>MATH 3150 Partial Differential Equations for Engineers</li>
+                <li>MATH 2250 Differential Equations and Linear Algebra</li>
+                <li>MATH 2210 Calculus III</li>
+                <li>MATH 1220 Calculus II</li>
+            </ul>
+            <p className="section-list-item-title">Physics:</p>
+            <ul className="section-list">
+                <li>PHYS 3760 Thermodynamics and Statistical Mechanics</li>
+                <li>PHYS 3740 Introduction to Quantum Mechanics and Relativity</li>
+                <li>PHYS 2225 Physics Lab II for Scientists and Engineers</li>
+                <li>PHYS 2235 Computational Lab</li>
+                <li>PHYS 2220 Physics For Scientists and Engineers II</li>
+                <li>PHYS 2215 Physics Lab I for Scientists and Engineers</li>
+                <li>PHYS 2210 Physics For Scientists and Engineers I</li>
             </ul>
             <p className="section-list-item-title">Other Stuff:</p>
             <ul className="section-list">
