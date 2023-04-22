@@ -10,7 +10,7 @@ function AcademicsSection({exitSection}) {
                 <ReturnToShip exitSection={exitSection}/>
                 <BackRocket exitSection={exitSection}/>
             </div>
-            <p className="section-text section-description"> I'm a computer science major and physics minor at the
+            <p className="section-text section-description"> I'm a computer science major with a physics minor at the
                 University of Utah with a 3.99 GPA.</p>
             <p className="section-text">I started out studying mechanical engineering at the University of Utah, but
                 after one year I realized how cool programming was and switched to computer science. A year after being

@@ -57,7 +57,6 @@ function ResumeSection({exitSection}) {
                 <p className="date-range">Fall 2019 - Spring 2024</p>
                 <ul className="section-list">
                     <li>3.99 Cumulative GPA</li>
-                    <li>Computational physics emphasis</li>
                     <li>Academic Excellence full tuition scholarship recipient</li>
                     <li>National Merit Commended Scholar</li>
                     <li>Student athlete on Varsity Swim and Dive, Fall 2019 - Spring 2021</li>
