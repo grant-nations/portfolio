@@ -20,6 +20,7 @@ import react_signup from "./photos/react-signup.jpg";
 import hiragana_pdf from "./photos/hiragana-shuffle-pdf.jpg";
 import kana_shuffle from "./photos/kana-shuffle-home.jpg";
 import jetta from "./photos/jetta.jpg";
+import twenty84 from "./photos/twenty_84_gif_clipchamp.gif";
 import {useState} from "react";
 import BackRocket from "../../components/BackRocket/BackRocket";
 
@@ -31,6 +32,14 @@ function ProjectsSection({exitSection}) {
 
     const pupilDescription = ["Pupil was an attempt at a software/hardware solution to the difficulty that students and professors faced with hybrid classrooms. Pupil had two main goals: To provide professors with a way to automatically record and upload their lectures online based on their class schedule, and to give students convenient online access to recordings of their in-person lectures. In this way, students get the benefit of lecture recordings and professors lose the hassle of handling the recording.",
         "In this project we set up a Raspberry Pi with a webcam to automatically record and upload video according to a schedule. I was in charge of the student and professor user interfaces using React and Redux, from wireframe to mockup to implementation. Jan, my main partner in this project, was in charge of the Django backend and using Celery to initiate recording on the Raspberry Pi. "]
+
+    const twenty84Description = ["The year is 2084...", "Immortality is available to a select few, one of which is Elon Musk (of course). From the result of a Twitter poll, Musk has decided to launch a siege on Earth from his command base on Mars. It is up to you, the final Earth astronaut, to defend Earth from Musk's army of Tesla spaceships. (An arcade-style pixel art game made with pygame.)"]
+
+    const twenty84Photos = [{
+        img: twenty84,
+        name: "twenty_84",
+        caption: ""
+    }]
 
     const mustangPhotos = [
         {
@@ -91,8 +100,6 @@ function ProjectsSection({exitSection}) {
 
     const [lockScroll, setLockScroll] = useState(false);
 
-
-
     return (
         <div className={`section ${lockScroll ? "scroll-lock" : "scroll-auto"}`}>
             <div className="section-header">
@@ -102,6 +109,18 @@ function ProjectsSection({exitSection}) {
             </div>
             {/*<p className="section-text">Personal projects from mechanical to online and everything in between.</p>*/}
             <div>
+                <ProjectDisplay
+                    setLockScroll={setLockScroll}
+                    startDate="February 2023"
+                    name="2084"
+                    descriptions={twenty84Description}
+                    number={"1"}
+                    images={twenty84Photos}
+                    imgStyle={{objectFit: "contain", marginLeft: "auto", width: "unset"}}
+                    links={[
+                        {href: "https://github.com/grant-nations/2084", text:"github.com/grant-nations/2084"}
+                    ]}
+                />
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="August 2022"

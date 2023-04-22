@@ -2,7 +2,7 @@ import "./ProjectDisplay.css";
 import {useEffect, useState} from "react";
 import ExplodedPhoto from "../ExplodedPhoto/ExplodedPhoto";
 
-function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descriptions, images, links}) {
+function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descriptions, images, links, imgStyle}) {
 
     const [photoView, setPhotoView] = useState({img: null, imgName: null})
     const [windowSize, setWindowSize] = useState(getWindowSize());
@@ -57,7 +57,9 @@ function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descri
                                  //         setPhotoView({img: image.img, imgName: image.name});
                                  //     }
                                  // }}
-                                 src={image.img} alt={image.name}/>
+                                 src={image.img} alt={image.name}
+                                 style={imgStyle ? imgStyle : {}}
+                            />
                         </div>
                         <p className="section-text project-image-caption">{image.caption}</p>
                     </div>

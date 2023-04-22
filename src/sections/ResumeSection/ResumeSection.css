@@ -43,6 +43,10 @@
     word-break: break-all;
 }
 
+.contact-links:hover{
+    text-decoration: underline;
+}
+
 .resume-links-flex{
     display: flex;
     justify-content: flex-start;

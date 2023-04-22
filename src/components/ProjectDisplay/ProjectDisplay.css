@@ -32,9 +32,7 @@
 }
 
 .image-box{
-    width: 100%;
     aspect-ratio: 5 / 3;
-    /*height: 300px;*/
 }
 
 .project-name{
@@ -68,6 +66,10 @@
     margin: 0;
     display: block;
     word-break: break-all;
+}
+
+.project-link:hover{
+    text-decoration: underline;
 }
 
 .project-link:last-child{

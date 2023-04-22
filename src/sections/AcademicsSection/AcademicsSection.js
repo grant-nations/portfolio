@@ -6,7 +6,7 @@ function AcademicsSection({exitSection}) {
     return (
         <div className="section academics-section">
             <div className="section-header">
-                <h2 className="section-title">Academics</h2>
+                <h2 className="section-title" >Academics</h2>
                 <ReturnToShip exitSection={exitSection}/>
                 <BackRocket exitSection={exitSection}/>
             </div>
@@ -16,19 +16,25 @@ function AcademicsSection({exitSection}) {
                 after one year I realized how cool programming was and switched to computer science. A year after being
                 in computer science, I became interested in physics during a conversation about a “space elevator” and
                 the next day added physics as a minor. Currently, I am in my fourth year out of five and will
-                graduate in the spring of 2023 with a BCS in computer science and a BS in physics with a computational
-                physics emphasis. Following graduation I plan to earn my master’s degree in computer science with a
-                focus on artificial intelligence and robotics.</p>
-            <p className="section-text">Here’s a list of my college courses to date (excluding most gen-eds):</p>
+                graduate in the spring of 2023 with a BCS in computer science and a minor in physics.
+                Following graduation I plan to earn my PhD in computer science researching the emergence of
+                consciousness from deep learning.
+            </p>
+            <p className="section-text section-separator" >University Courses</p>
             <p className="section-list-item-title">Computer science:</p>
             <ul className="section-list">
+                <li>CS 5960 Human-AI Alignment <span style={{color: "cyan"}}>(next semester)</span></li>
                 <li>CS 5610 Interactive Computer Graphics</li>
+                <li>CS 5353 Deep Learning <span style={{color: "cyan"}}>(next semester)</span></li>
                 <li>CS 4440 Computer Security</li>
                 <li>CS 4400 Computer Systems</li>
                 <li>CS 4150 Algorithms</li>
+                <li>CS 4000 Senior Capstone Design <span style={{color: "cyan"}}>(next semester)</span></li>
                 <li>CS 3810 Computer Organization</li>
+                <li>ECE 3610 Fundamentals of Robotics and Cyberphysical Systems</li>
                 <li>CS 3505 Software Practice II</li>
                 <li>CS 3500 Software Practice</li>
+                <li>CS 3100 Models of Computation <span style={{color: "cyan"}}>(next semester)</span></li>
                 <li>CS 3190 Foundations of Data Analysis</li>
                 <li>CS 3130 Engineering Probability and Statistics</li>
                 <li>CS 2420 Intro to Algorithms and Data Structures</li>
@@ -53,9 +59,8 @@ function AcademicsSection({exitSection}) {
                 <li>PHYS 2215 Physics Lab I for Scientists and Engineers</li>
                 <li>PHYS 2210 Physics For Scientists and Engineers I</li>
             </ul>
-            <p className="section-list-item-title">Other Stuff:</p>
+            <p className="section-list-item-title">Other useful stuff:</p>
             <ul className="section-list">
-                <li>ECE 3610 Fundamentals of Robotics and Cyberphysical systems</li>
                 <li>ME EN 1000 Introduction to Design for Engineering Systems</li>
                 <li>ME EN 1010 Computer Problem Solving for Engineering Systems</li>
                 <li>CHEM 1210 General Chemistry I</li>
@@ -63,8 +68,14 @@ function AcademicsSection({exitSection}) {
                 <li>WRTG 3015 Professional Writing</li>
                 <li>PSY 1010 General Psychology</li>
             </ul>
-            <p className="section-text">Here are some scholarships and awards that I’ve received:</p>
+            <p className="section-text section-separator" >Scholarships and Awards</p>
             <ul className="section-list">
+                <li className="award-list-item">Bob and Mary Gilchrist Scholarship, University of Utah 2023
+                    <ul>
+                        <li>A merit-based scholarship awarded to students within the John and Marcia Price College of Engineering.
+                        </li>
+                    </ul>
+                </li>
                 <li className="award-list-item">John Council Memorial Scholarship, Foundation for IT Education 2022
                     <ul>
                         <li>A scholarship awarded to individuals seeking a degree in an information technology-related

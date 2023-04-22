@@ -12,9 +12,9 @@ function AboutSection({exitSection}) {
                 <BackRocket exitSection={exitSection}/>
             </div>
             <p className="section-text">Yo, I’m Grant Nations.</p>
-            <p className="section-text">I’m a fourth-year student at the University of Utah majoring in computer science with a minor in physics. In my first two years of college, I was also a student-athlete on the Utah Swim and Dive team. My failures and successes in athletics have shaped me to be perseverant, hard-working, and competitive. My academic experiences have taught me to be open-minded, always curious, and a big dreamer.
+            <p className="section-text">I’m a fourth year student at the University of Utah majoring in computer science with a physics minor. In my first two years of college, I was also a student athlete on the Swim and Dive team. I’m interested in many different things, but mainly I enjoy learning about history, philosophy, and artificial intelligence. Specifically, I aim to pursue a PhD in computer science researching how consciousness can emerge from deep learning.
             </p>
-            <p className="section-text"> I'm interested in social robotics, artificial intelligence, fusion energy, augmented reality, and commercial spaceflight. I aim to someday create technology that changes the world for the better.
+            <p className="section-text"> In my free time, I like to hang out with my friends, rock climb, snowboard, read, and write.
             </p>
         </div>
     )

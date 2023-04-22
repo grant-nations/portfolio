@@ -68,7 +68,7 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">KBR — Operations Research Engineering
                         Intern</p>
-                    <p className="date-range">December 2022 - Present, Salt Lake City, UT</p>
+                    <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Research and develop a mixed-integer programming model and parallel machine scheduler for
                             observations of Earth-orbiting satellites to produce dense, high quality schedules.
@@ -76,16 +76,9 @@ function ResumeSection({exitSection}) {
                         <li>Research and develop algorithms implementing logic-based benders decomposition to reduce the
                             time needed to solve programming models.
                         </li>
-                        <li>Implement MIP models and decomposition algorithms in Python using the GEKKO optimization
-                            library.
+                        <li>Implement MIP models and decomposition algorithms in Python using the Pyomo and GEKKO optimization
+                            libraries.
                         </li>
-                    </ul>
-                </div>
-                <div>
-                    <p className="section-text resume-section-subsection-item">KBR — Software Development
-                        Intern</p>
-                    <p className="date-range">August 2022 - December 2022, Salt Lake City, UT</p>
-                    <ul className="section-list">
                         <li>Adapt the open-source Python package Astroplan to be usable within space domain awareness
                             applications.
                         </li>
@@ -207,20 +200,20 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">Languages</p>
                     <ul className="section-list">
-                        <li>C, C++, Java, MATLAB, Python, C#, Javascript, Typescript, Solidity, HTML, CSS, SQL</li>
+                        <li>C, C++, Python, Java, MATLAB, C#, Javascript, Typescript, Solidity, HTML, CSS, SQL</li>
                     </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">Frameworks/RTEs/Libraries</p>
                     <ul className="section-list">
-                        <li>NumPy, GEKKO, Astroplan, Skyfield, SciPy, Redux, React, Qt, Express, Node.js</li>
+                        <li>NumPy, Pyomo, GEKKO, Astroplan, SciPy, Redux, React, Qt, Express, Node.js</li>
                     </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">Tools</p>
                     <ul className="section-list">
-                        <li>SolidWorks, Canva, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify,
-                            Heroku
+                        <li>SolidWorks, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify,
+                            Heroku, Photoshop
                         </li>
                     </ul>
                 </div>
