@@ -2,7 +2,7 @@ import "./ProjectDisplay.css";
 import {useEffect, useState} from "react";
 import ExplodedPhoto from "../ExplodedPhoto/ExplodedPhoto";
 
-function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descriptions, images, links, imgStyle}) {
+function ProjectDisplay({startDate, setLockScroll, endDate, name, descriptions, images, links, imgStyle}) {
 
     const [photoView, setPhotoView] = useState({img: null, imgName: null})
     const [windowSize, setWindowSize] = useState(getWindowSize());
@@ -30,7 +30,7 @@ function ProjectDisplay({startDate, setLockScroll, endDate, name, number, descri
     return (
         <div className="project-display">
             <div>
-                <h4 className="project-name">{number}. {name} <span
+                <h4 className="project-name">{name} <span
                     className="project-dates">{startDate || endDate ? "|" : ""} {startDate}{endDate ? " — " : ""}{endDate}</span>
                 </h4>
                 {descriptions.map(desc => {

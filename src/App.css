@@ -20,6 +20,7 @@
     overflow-wrap: break-word;
     word-break: normal;
     overflow-x: hidden;
+    text-align: justify;
 }
 
 .home-fixed-wrapper{
@@ -61,9 +62,6 @@
 .section-separator {
     font-weight: 700;
     font-size: 20px;
-    /*
-    border-bottom: 2px solid;
-    */
     display: inline-block;
 }
 
@@ -217,7 +215,7 @@
     display: inline-block;
 }
 
-.projects-title {
+.about-title {
     margin: -30px 0 0;
 }
 
@@ -263,7 +261,7 @@
 }
 
 
-.contact {
+.research {
     left: 13%;
     bottom: 20%;
 }
@@ -273,17 +271,17 @@
     top: 27%;
 }
 
-.projects {
+.about {
     left: calc(50% - 100px);
     top: calc(50% - 100px);
 }
 
-.resume {
+.projects {
     right: 28%;
     top: 24%;
 }
 
-.about {
+.resume {
     right: 15%;
     bottom: 20%;
 }
@@ -319,7 +317,7 @@
 
 @media (max-width: 900px) {
 
-    .contact {
+    .research {
         left: unset;
         bottom: unset;
         position: static;
@@ -355,7 +353,7 @@
         right: unset;
         bottom: unset;
         position: static;
-        padding-bottom: 30px;
+        /*padding-bottom: 30px;*/
     }
 
     .projects-hover-div {
@@ -383,7 +381,7 @@
 
     .home-header {
         height: unset;
-        margin-bottom: 86px;
+        margin-bottom: 40px;
     }
 
     .home-header {

@@ -9,7 +9,7 @@ import star from "./planet-gifs/star.gif";
 import ProjectsSection from "./sections/ProjectsSection/ProjectsSection";
 import AboutSection from "./sections/AboutSection/AboutSection";
 import AcademicsSection from "./sections/AcademicsSection/AcademicsSection";
-import ContactSection from "./sections/ContactSection/ContactSection";
+import ResearchSection from "./sections/ResearchSection/ResearchSection";
 import ResumeSection from "./sections/ResumeSection/ResumeSection";
 
 function App() {
@@ -73,15 +73,15 @@ function App() {
                 </header>
                 <div>
                     <div className="section-base about">
-                        <img onClick={handleAboutClick} src={green} alt="Green Planet"
-                             className="planet-hover planet-base green-planet"/>
-                        <h3 onClick={handleAboutClick} className="effect-underline base-title">About</h3>
+                        <img src={star} alt="Star" className="planet-base star"/>
+                        <div onClick={handleAboutClick} className="projects-hover-div planet-hover"/>
+                        <h3 onClick={handleAboutClick}
+                            className="effect-underline base-title about-title">About</h3>
                     </div>
                     <div className="section-base projects">
-                        <img src={star} alt="Star" className="planet-base star"/>
-                        <div onClick={handleProjectsClick} className="projects-hover-div planet-hover"/>
-                        <h3 onClick={handleProjectsClick}
-                            className="effect-underline base-title projects-title">Projects</h3>
+                        <img onClick={handleProjectsClick} src={green} alt="Green Planet"
+                             className="planet-hover planet-base green-planet"/>
+                        <h3 onClick={handleProjectsClick} className="effect-underline base-title">Projects</h3>
                     </div>
                     <div className="section-base academics">
                         <img onClick={handleAcademicsClick} src={red} alt="Red Planet"
@@ -93,14 +93,14 @@ function App() {
                              className="planet-hover planet-base blue-white-planet"/>
                         <h3 onClick={handleResumeClick} className="effect-underline base-title">Resume</h3>
                     </div>
-                    <div className="section-base contact">
+                    <div className="section-base research">
                         <img onClick={handleContactClick} src={pink} alt="Pink Planet"
                              className="planet-hover planet-base pink-planet"/>
-                        <h3 onClick={handleContactClick} className="effect-underline base-title">Contact</h3>
+                        <h3 onClick={handleContactClick} className="effect-underline base-title">Research</h3>
                     </div>
                 </div>
                 <div className="section-container">
-                    {contactView && <ContactSection exitSection={exitSection}/>}
+                    {contactView && <ResearchSection exitSection={exitSection}/>}
                     {academicsView && <AcademicsSection exitSection={exitSection}/>}
                     {aboutView && <AboutSection exitSection={exitSection}/>}
                     {projectsView && <ProjectsSection exitSection={exitSection}/>}

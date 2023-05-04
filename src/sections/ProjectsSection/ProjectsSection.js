@@ -26,7 +26,6 @@ import BackRocket from "../../components/BackRocket/BackRocket";
 
 function ProjectsSection({exitSection}) {
 
-    const schedulerDescription = ["Space Domain Awareness (SDA) is the study and monitoring of satellites orbiting the earth. As a operations research engineering intern at KBR, I am responsible for researching and developing a mixed-integer programming (MIP) model to be used in scheduling SDA observations. This project has significant real-world impacts and is by far the largest and most complex programming problem that I have tackled. (Paper coming soon.)"]
     const mustangDescription = ["In 2015, I got a 1966 Mustang as my first car. It didn’t have an engine, the transmission was hanging by a wire, and the floors had gaping holes in them. Over the course of the next year, I went from knowing nothing about cars to rebuilding my own, and as a sophomore in high school I got to have a loud, slightly rusty yellow hot rod as my daily driver. My friends called it “The Crustang”, and the name stuck. Sadly, someone on their phone rear ended me at a stop light one day, totalling my car.",
         "I got to build another Mustang though, and this time around I knew what I was doing. I spent another year turning another 1966 Mustang with an inline-six engine into my dream car. I took the newly-rebuilt V8 engine, four speed manual transmission, suspension, and anything else I could from The Crustang to beef up my new car. I named it “Dani California” after the song by the Red Hot Chili Peppers. I finished Dani California right before senior prom, with yellow-pearl paint that perfectly matched my date’s dress and my tie."]
 
@@ -114,7 +113,6 @@ function ProjectsSection({exitSection}) {
                     startDate="February 2023"
                     name="2084"
                     descriptions={twenty84Description}
-                    number={"1"}
                     images={twenty84Photos}
                     imgStyle={{objectFit: "contain", marginLeft: "auto", width: "unset"}}
                     links={[
@@ -123,20 +121,10 @@ function ProjectsSection({exitSection}) {
                 />
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
-                    startDate="August 2022"
-                    endDate={"Current"}
-                    name="Space Domain Awareness Scheduler"
-                    descriptions={schedulerDescription}
-                    number={"1"}
-                    images={[]}
-                />
-                <ProjectDisplay
-                    setLockScroll={setLockScroll}
                     startDate="2015"
                     endDate="2019"
                     name="The Crustang and Dani California"
                     descriptions={mustangDescription}
-                    number="2"
                     images={mustangPhotos}
                 />
                 <ProjectDisplay
@@ -144,7 +132,6 @@ function ProjectsSection({exitSection}) {
                     startDate="July 2022"
                     name="Kana Shuffle"
                     descriptions={["Kana Shuffle is a web application that allows users to download Japanese hiragana, katakana, and romaji practice sheets whose characters are in a different order each time. It addresses a problem I noticed when learning to read Japanese, in that I had a difficult time remembering hiragana and katakana if the worksheet I was using was in a different order. This application is built using Node.js/express backend and React.js frontend."]}
-                    number={"3"}
                     images={kanaPhotos}
                     links={[
                         {href: "https://kana-shuffle.herokuapp.com/", text:"kana-shuffle.herokuapp.com"},
@@ -162,14 +149,12 @@ function ProjectsSection({exitSection}) {
                         {href: "https://github.com/PUPILorg/pupil_landing_frontend", text: "github.com/PUPILorg/pupil_landing_frontend"}
                     ]}
                     descriptions={pupilDescription}
-                    number={"4"}
                     images={pupilPhotos}/>
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="May 2022"
                     name="React E-Commerce Application"
                     descriptions={["This project is a mock e-commerce application for the fake brand Crown Clothing. It was built using React, TypeScript, Redux, Firebase, and Styled Components. Different branches in the repository display different methods for handling website state, i.e. React Context, Redux Thunks, and Redux Sagas."]}
-                    number={"5"}
                     images={reactPhotos}
                     links={[
                         {href: "https://heartfelt-frangipane-722cca.netlify.app/", text:"heartfelt-frangipane-722cca.netlify.app"},
@@ -183,27 +168,23 @@ function ProjectsSection({exitSection}) {
                     endDate="2017"
                     name="Jetta Engine Swap"
                     descriptions={["While rebuilding my first 1966 Mustang, I made a deal with my dad to swap the bad engine in our 2006 Jetta with a new one. Over the year that it took me to complete, I learned about transaxles, diesel engines, soldering, and more. In combination with my Mustang, I drove the car for the following three years."]}
-                    number={"6"}
                     images={jettaPhotos}/>
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="November 2019"
                     name="Impeller Pump"
                     descriptions={["When I was studying Mechanical Engineering, I built an impeller pump as a class project. My mechanical background placed me in a leadership position on the team, so I designed the impeller and pump housing in SolidWorks and also built the transmission."]}
-                    number={"7"}
                     images={pumpPhotos}/>
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="April 2020"
                     name="Tachometer Mount"
                     descriptions={["In 1966, Mustangs didn't generally come from the factory with a tachometer. I wanted to install one, but didn’t like how the only mounting option available was a hose clamp. I designed my own tachometer mounts in SolidWorks and 3D printed them. PLA melts if left in a car in Tucson, so the plan was to later machine them out of aluminum."]}
-                    number={"8"}
                     images={tachPhotos}/>
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     name="Honorable Mentions"
-                    descriptions={["Over the years, I’ve done countless random projects, all of which helped me to develop the creativity and problem solving skills that I have today . To name a few, I’ve: built a custom steel bumper for my 2001 4Runner, machined custom door lock pins for my Mustang, made custom kitchen knives that I sold to customers in places as far away as Australia, built a custom subwoofer box for my 4Runner, installed 3 car stereo head units, disassembled and fixed a washing machine, replaced power steering pumps, and more."]}
-                    number={"9"}
+                    descriptions={["Over the years, I’ve done countless random projects, all of which helped me to develop the creativity and problem solving skills that I have today. To name a few, I’ve built a custom steel bumper for my 2001 4Runner, machined custom door lock pins for my Mustang, built a custom subwoofer box for my 4Runner, disassembled and fixed a washing machine, replaced power steering pumps, and so on..."]}
                     images={metalWorkPhotos}
                 />
 
