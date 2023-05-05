@@ -69,6 +69,7 @@ function AcademicsSection({exitSection}) {
             </ul>
             <p className="section-text section-separator" >Online Courses</p>
             <ul className="section-list">
+                <li>DeepMind x UCL | Introduction to Reinforcement Learning 2015, Google DeepMind <span style={{color: "cyan", fontWeight: "600"}}>(IP)</span> </li>
                 <li>Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL), Udemy</li>
                 <li>Blockchain Basics, Coursera</li>
                 <li>Machine Learning, Data Science and Deep Learning with Python, Udemy</li>

@@ -20,7 +20,7 @@
     overflow-wrap: break-word;
     word-break: normal;
     overflow-x: hidden;
-    text-align: justify;
+    text-align: left;
 }
 
 .home-fixed-wrapper{

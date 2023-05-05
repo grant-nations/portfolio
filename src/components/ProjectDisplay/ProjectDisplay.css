@@ -39,7 +39,8 @@
     font-family: "Montserrat", sans-serif;
     color: #e6faf8;
     font-size: 20px;
-    margin: 40px 0 0;
+    margin: 40px 0 20px;
+    font-weight: 700;
 }
 
 .project-description{

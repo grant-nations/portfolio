@@ -33,7 +33,7 @@ function AboutSection({exitSection}) {
             </p>
             <p className="section-text">In my free time, I tend to bounce between several different pastimes. My most
                 frequent favorites are reading, eating food with friends, watching movies, and watching shmovies
-                (show-movies). I especially love books and poetry—my current favorite author being Bukowski.</p>
+                (show-movies). I especially like reading realistic fiction and poetry—my current favorite author being Bukowski.</p>
 
             <div className="contact-lines-container">
                 <div style={{marginRight: "10px"}} className="contact-line">
