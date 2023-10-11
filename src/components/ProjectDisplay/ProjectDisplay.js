@@ -31,7 +31,7 @@ function ProjectDisplay({startDate, setLockScroll, endDate, name, descriptions, 
         <div className="project-display">
             <div>
                 <h4 className="project-name">{name} <span
-                    className="project-dates">{startDate || endDate ? "|" : ""} {startDate}{endDate ? " — " : ""}{endDate}</span>
+                    className="project-dates">{startDate || endDate ? "//" : ""} {startDate}{endDate ? " — " : ""}{endDate}</span>
                 </h4>
                 {descriptions.map(desc => {
                     return <p key={desc} className="section-text project-description">{desc}</p>

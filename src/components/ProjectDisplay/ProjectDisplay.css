@@ -38,9 +38,10 @@
 .project-name{
     font-family: "Montserrat", sans-serif;
     color: #e6faf8;
-    font-size: 20px;
+    font-size: 18px;
     margin: 40px 0 20px;
     font-weight: 700;
+    color: #0CECDD
 }
 
 .project-description{
@@ -49,19 +50,21 @@
 
 .project-dates{
     font-weight: 300;
+    color: white;
+    font-size: 16px;
 }
 
 .project-image-caption{
     margin: 10px 0 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 18px;
 }
 
 .project-link{
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #e6faf8;
+    font-size: 16px;
+    color: #F7EA00;
     line-height: 28px;
     text-decoration: none;
     margin: 0;
@@ -92,9 +95,9 @@
 
 @media (max-width: 900px) {
     .project-link{
-        font-size: 16px;
+        font-size: 14px;
     }
     .project-name{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
