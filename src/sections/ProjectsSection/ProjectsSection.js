@@ -39,7 +39,7 @@ function ProjectsSection({ exitSection }) {
         {
             img: dani_cali_paint_shop,
             name: "dani_cali_paint_shop",
-            caption: "Dani California sitting outside of the paint shop."
+            caption: "Sitting outside of the paint shop."
         },
         {
             img: dc_engine,
@@ -49,7 +49,7 @@ function ProjectsSection({ exitSection }) {
         {
             img: dani_cali_engine,
             name: "dani_cali_engine",
-            caption: "Dani California's engine bay featuring a bored-out 289."
+            caption: "The engine bay featuring a bored-out 289."
         },
         {
             img: dani_cali_roller,
@@ -82,18 +82,6 @@ function ProjectsSection({ exitSection }) {
                 <BackRocket exitSection={exitSection} />
             </div>
             <div>
-                {/* <AbysmTimeline/>
-                <ProjectDisplay
-                    setLockScroll={setLockScroll}
-                    startDate="August 2023"
-                    name="Abysm"
-                    descriptions={[]}
-                    images={[]}
-                    links={[
-                        {href: "https://twitter.com/abysm_bot", text: "twitter.com/abysm_bot"},
-                        {href: "https://github.com/grant-nations/turnoff", text: "github.com/grant-nations/turnoff"}
-                    ]}
-                /> */}
 
                 <AbysmProjectDisplay />
 

@@ -1,5 +1,5 @@
 .icon{
-    color: #e6faf8;
+    color: #D09CFA;
     margin: 0 15px 0 0;
 }
 
@@ -15,8 +15,9 @@
 
 .link{
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #e6faf8;
+    color: #D09CFA;
     line-height: 28px;
     text-decoration: none;
     margin: 0;
@@ -31,6 +32,6 @@
 
 @media (max-width: 900px) {
     .link{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

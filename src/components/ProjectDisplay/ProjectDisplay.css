@@ -64,7 +64,8 @@
 .project-link{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: #F7EA00;
+    /* color: #F7EA00; */
+    color: #D09CFA;
     line-height: 28px;
     text-decoration: none;
     margin: 0;
