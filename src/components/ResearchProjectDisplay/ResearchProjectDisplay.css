@@ -26,3 +26,9 @@
     border-radius: 6px;
     cursor: pointer;
 }
+
+@media (max-width: 900px) {
+    .sub-status {
+        font-size: 14px;
+    }
+}
