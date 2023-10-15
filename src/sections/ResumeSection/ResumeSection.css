@@ -7,7 +7,7 @@
     color: #05050e;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     margin: 20px 0;
     display: inline-block;
@@ -16,6 +16,7 @@
 
 .resume-section-subsection-item{
     margin-top: 20px;
+    /* color: #F7EC09; */
 }
 
 .date-range{
@@ -28,13 +29,14 @@
 }
 
 .resume-name{
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 8px;
+    color: #0CECDD;
 }
 
 .contact-links{
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #e6faf8;
     margin: 5px 0;
     line-height: 16px;
@@ -56,6 +58,6 @@
 
 @media (max-width: 900px) {
     .resume-download{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

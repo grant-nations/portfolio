@@ -40,19 +40,20 @@
 .section-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .section-title {
     font-family: "Major Mono Display", monospace;
     margin: 0;
-    font-size: 30px;
-    color: #e6faf8;
+    font-size: 26px;
+    color: #FF79CD;
+    /* color: #FFA41B; */
 }
 
 .section-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #e6faf8;
     margin: 40px 0 0;
     line-height: 28px;
@@ -61,13 +62,14 @@
 
 .section-separator {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
+    color: #0CECDD
 }
 
 .section-list-item-title {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #e6faf8;
     margin: 20px 0 0;
     line-height: 28px;
@@ -76,7 +78,7 @@
 
 .section-list {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #e6faf8;
     margin: 10px 0 0;
     line-height: 30px;
@@ -90,7 +92,8 @@
 .section-subtitle {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    color: #e6faf8;
+    /* color: #e6faf8; */
+    color: #0CECDD;
     margin: 40px 0 0;
     line-height: 28px;
     font-weight: 700;
@@ -168,7 +171,7 @@
 .home-header-title {
     font-family: "Major Mono Display", monospace;
     color: #e6faf8;
-    font-size: 52px;
+    font-size: 50px;
     margin: 0;
 }
 
@@ -179,29 +182,33 @@
 }
 
 .star {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     cursor: default;
 }
 
 .blue-white-planet {
-    width: 84px;
-    height: 84px;
+    width: 60px;
+    height: 60px;
+    rotate: -100deg;
 }
 
 .red-planet {
-    width: 86px;
-    height: 86px;
+    width: 100px;
+    height: 100px;
+    rotate: 130deg;
 }
 
 .green-planet {
     width: 100px;
     height: 100px;
+    rotate: -20deg;
 }
 
 .pink-planet {
-    width: 75px;
-    height: 75px;
+    width: 58px;
+    height: 58px;
+    rotate: 180deg;
 }
 
 /* section titles */
@@ -209,7 +216,7 @@
 .base-title {
     font-family: 'Major Mono Display', monospace;
     color: #e6faf8;
-    font-size: 24px;
+    font-size: 22px;
     margin: 14px 0 0;
     cursor: pointer;
     display: inline-block;
@@ -260,58 +267,60 @@
     transform: scale(1);
 }
 
-
-.research {
-    left: 13%;
-    bottom: 20%;
+.about {
+    left: calc(50% - 140px);
+    top: calc(45% - 140px);
 }
 
 .academics {
-    left: 25%;
+    left: 15%;
+    bottom: 23%;
+}
+
+.research {
+    left: 30%;
     top: 27%;
 }
 
-.about {
-    left: calc(50% - 100px);
-    top: calc(50% - 100px);
+
+.resume {
+    right: 32%;
+    top: 26%;
 }
 
 .projects {
-    right: 28%;
-    top: 24%;
-}
-
-.resume {
-    right: 15%;
-    bottom: 20%;
+    right: 17%;
+    bottom: 23%;
 }
 
 .link:hover {
     text-decoration: underline;
+    /* color:  */
 }
 
 .projects-hover-div {
     cursor: pointer;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     position: fixed;
     z-index: 101;
     background-color: transparent;
     border-radius: 50%;
     margin: 0;
     padding: 0;
-    left: calc(50% - 50px);
-    top: calc(50% - 50px);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
-    filter: alpha(opacity=0); /* IE 5-7 */
-    -moz-opacity: 0; /* Netscape */
-    -khtml-opacity: 0; /* Safari 1.x */
-    opacity: 0; /* Good browsers */
+    left: calc(50% - 70px);
+    top: calc(45% - 70px);
+    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+    filter: alpha(opacity=0);
+    -moz-opacity: 0; 
+    -khtml-opacity: 0; 
+    opacity: 0;     
 }
 
 @media (max-width: 440px) {
     .home-header-title {
-        font-size: 44px;
+        font-size: 42px;
     }
 }
 
@@ -362,7 +371,7 @@
         left: unset;
         top: unset;
         bottom: 50px;
-        margin-top: -100px;
+        margin-top: -160px;
     }
 
     /*effect-underline*/
@@ -419,19 +428,23 @@
     }
 
     .section-text {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .section-list-item-title {
+        font-size: 14px;
+    }
+
+    .section-separator{
         font-size: 16px;
     }
 
     .section-list {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .section-subtitle {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
