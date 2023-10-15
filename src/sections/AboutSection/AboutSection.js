@@ -38,17 +38,17 @@ function AboutSection({exitSection}) {
             <div className="contact-lines-container">
                 <div style={{marginRight: "10px"}} className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faEnvelope}/>
-                    <a className="link" target="_blank" rel="noopener noreferrer" href="mailto:nationsgrant@gmail.com">nationsgrant@gmail.com</a>
+                    <a className="link about-link" target="_blank" rel="noopener noreferrer" href="mailto:nationsgrant@gmail.com">nationsgrant@gmail.com</a>
                 </div>
                 <div style={{marginRight: "10px"}} className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faLinkedin}/>
-                    <a className="link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/grant-nations/">
+                    <a className="link about-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/grant-nations/">
                         www.linkedin.com/in/grant-nations
                     </a>
                 </div>
                 <div className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faGithub}/>
-                    <a className="link" target="_blank" rel="noopener noreferrer" href="https://github.com/grant-nations">github.com/grant-nations</a>
+                    <a className="link about-link" target="_blank" rel="noopener noreferrer" href="https://github.com/grant-nations">github.com/grant-nations</a>
                 </div>
             </div>
         </div>

@@ -1,15 +1,13 @@
 import "./ProjectsSection.css";
 import ReturnToShip from "../../components/ReturnToShip/ReturnToShip";
 import ProjectDisplay from "../../components/ProjectDisplay/ProjectDisplay";
-// import AbysmTimeline from "../../components/AbysmTimeline/AbysmTimeline";
 import AbysmProjectDisplay from "../../components/AbysmProjectDisplay/AbysmProjectDisplay";
 
-// import crustang_surgery from "./photos/crustang-surgery.jpg";
 import dani_cali_engine from "./photos/dani-cali-engine.JPG";
 import dani_cali_paint_shop from "./photos/dani-cali-paint-shop.JPG";
 import dani_cali_roller from "./photos/dani-cali-roller.JPEG";
 import pupil_lect from "./photos/pupil-lectures.jpg";
-import pupil_landing from "./photos/pupil-landing.jpg";
+import pupil_prof_view from "./photos/pupil_prof_view_1.png"
 import react_home from "./photos/react-home.jpg";
 import react_signup from "./photos/react-signup.jpg";
 import hiragana_pdf from "./photos/hiragana-shuffle-pdf.jpg";
@@ -59,12 +57,12 @@ function ProjectsSection({ exitSection }) {
     ];
     const pupilPhotos = [
         { img: pupil_lect, name: "pupil_lectures", caption: "A mock-up for a student's lectures view." },
-        { img: pupil_landing, name: "pupil_landing", caption: "Pupil landing page." }
+        { img: pupil_prof_view, name: "pupil_prof_view", caption: "A mock-up for a professor view." }
     ]
 
     const kanaPhotos = [
         { img: kana_shuffle, name: "kana_shuffle", caption: "Kana Shuffle web application." },
-        { img: hiragana_pdf, name: "pupil_landing", caption: "A shuffled hiragana practice sheet." }
+        { img: hiragana_pdf, name: "kana_practice_sheet", caption: "A shuffled hiragana practice sheet." }
     ]
 
     const reactPhotos = [
@@ -98,9 +96,21 @@ function ProjectsSection({ exitSection }) {
                 />
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
+                    startDate="September 2021"
+                    endDate="January 2022"
+                    name="Pupil"
+                    links={[
+                        { href: "https://www.aboutpupil.com", text: "www.aboutpupil.com" },
+                        { href: "https://github.com/PUPILorg/pupil-frontend", text: "github.com/PUPILorg/pupil-frontend" },
+                        { href: "https://github.com/PUPILorg/pupil_landing_frontend", text: "github.com/PUPILorg/pupil_landing_frontend" }
+                    ]}
+                    descriptions={pupilDescription}
+                    images={pupilPhotos} />
+                <ProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="2015"
                     endDate="2019"
-                    name="The Crustang and Dani California"
+                    name="Crustangs"
                     descriptions={mustangDescription}
                     images={mustangPhotos}
                 />
@@ -115,18 +125,8 @@ function ProjectsSection({ exitSection }) {
                         { href: "https://github.com/grant-nations/kana-shuffle", text: "github.com/grant-nations/kana-shuffle" }
                     ]}
                 />
-                <ProjectDisplay
-                    setLockScroll={setLockScroll}
-                    startDate="September 2021"
-                    endDate="January 2022"
-                    name="Pupil"
-                    links={[
-                        { href: "https://www.aboutpupil.com", text: "www.aboutpupil.com" },
-                        { href: "https://github.com/PUPILorg/pupil-frontend", text: "github.com/PUPILorg/pupil-frontend" },
-                        { href: "https://github.com/PUPILorg/pupil_landing_frontend", text: "github.com/PUPILorg/pupil_landing_frontend" }
-                    ]}
-                    descriptions={pupilDescription}
-                    images={pupilPhotos} />
+
+
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
                     startDate="May 2022"

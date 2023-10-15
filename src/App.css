@@ -40,7 +40,7 @@
 .section-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .section-title {
@@ -190,21 +190,25 @@
 .blue-white-planet {
     width: 60px;
     height: 60px;
+    rotate: -100deg;
 }
 
 .red-planet {
     width: 100px;
     height: 100px;
+    rotate: 130deg;
 }
 
 .green-planet {
     width: 100px;
     height: 100px;
+    rotate: -20deg;
 }
 
 .pink-planet {
     width: 58px;
     height: 58px;
+    rotate: 180deg;
 }
 
 /* section titles */

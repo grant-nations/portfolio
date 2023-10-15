@@ -1,5 +1,5 @@
 .icon{
-    color: #D09CFA;
+    /* color: #D09CFA; */
     margin: 0 15px 0 0;
 }
 
@@ -16,7 +16,6 @@
 .link{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: #e6faf8;
     color: #D09CFA;
     line-height: 28px;
     text-decoration: none;

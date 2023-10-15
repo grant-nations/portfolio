@@ -36,14 +36,13 @@
 
 .contact-links{
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #e6faf8;
     margin: 5px 0;
     line-height: 16px;
     font-weight: 300;
     display: block;
     word-break: break-all;
-    color: #D09CFA;
 }
 
 .contact-links:hover{
