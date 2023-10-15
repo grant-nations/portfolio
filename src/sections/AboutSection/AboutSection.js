@@ -14,27 +14,15 @@ function AboutSection({exitSection}) {
                 <ReturnToShip exitSection={exitSection}/>
                 <BackRocket exitSection={exitSection}/>
             </div>
-            <p className="section-text"><span style={{color: "cyan"}}>Yo</span>, I’m Grant Nations.</p>
-            <p className="section-text">I’m a computer science undergraduate student at the University of Utah.
-                Currently, I’m also working as an operations research engineering intern at KBR. In this role, I’m
-                focused on developing optimal scheduling strategies for satellite observations across a network of
-                ground-based sensors.
+            <p className="section-text"> Yo, I’m Grant Nations.</p>
+            <p className="section-text">Currently, I’m in my fifth and final semester at the University of Utah, majoring in computer science with a physics minor. I work as a research assistant in the Drew Research Lab, where I mainly focus on methods for improving thrust efficiency in electroaerodynamic thrusters. At the same time, I’m pursuing a deep reinforcement learning approach to scheduling for Space Domain Awareness as a machine learning intern with KBR. 
             </p>
-            <p className="section-text">My interests are diverse and span a range of fields including artificial
-                intelligence, robotics, philosophy, and physics. While I am passionate about exploring all of these
-                fields, I have the most extensive knowledge and experience within artificial intelligence. After I
-                finish my bachelor’s in computer science, I plan on shifting my focus to AI within robotics.
+            <p className="section-text">I have diverse interests. I like things cyberpunk, gothic, rustic, and shoegaze. 
+            My favorite pastimes are reading (I enjoy reading Bukowski, Camus, Plath, and Ishiguro, to name a few), writing,
+             traveling, swimming, and watching movies. I also like thinking about big questions and learning concepts and skills
+                that will one day help me to answer them. The biggest philosophical questions often start with <span style={{ fontStyle: "italic" }}>why</span> (<span style={{ fontStyle: "italic" }}>why</span> do we exist?),
+                but I’m more interested in <span style={{ fontStyle: "italic" }}>how</span>. (<span style={{ fontStyle: "italic" }}>how</span> do we have the ability to even ask such questions?) I’d like to figure this out, and the approach I’m interested in is reverse-engineering. What can we learn from our own biological structure that will allow us to create a thinking, feeling (robot) being? In turn, what can this being teach us about ourselves? Here, there are many more questions than answers, which is in part what makes it such an exciting field to dive into. In pursuit of answers, I hope to study neuroinformatics and robotics in graduate school and experiment with novel, groundbreaking approaches to constructing complicated physical structures that give rise to emergent behavior.
             </p>
-            <p className="section-text">Over the next several years, I hope to work on lots of cool robots and pursue
-                an answer to the question: <span style={{color: "cyan"}}>Is human consciousness unique?</span> While some believe that artificial general
-                intelligence will emerge from future large language models, I believe that it will only emerge as a
-                product of learning within the physical world. Aside from satisfying my philosophical curiosity, I hope
-                to work on robots that aid in advancing humanity toward a more just and egalitarian society.
-            </p>
-            <p className="section-text">In my free time, I tend to bounce between several different pastimes. My most
-                frequent favorites are reading, eating food with friends, watching movies, and watching shmovies
-                (show-movies). I especially like reading realistic fiction and poetry—my current favorite author being Bukowski.</p>
-
             <div className="contact-lines-container">
                 <div style={{marginRight: "10px"}} className="contact-line">
                     <FontAwesomeIcon className="icon" size="2x" icon={faEnvelope}/>
