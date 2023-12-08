@@ -54,7 +54,7 @@ function ResearchSection({ exitSection }) {
                     images={[]}
                     imgStyle={{ objectFit: "contain", marginLeft: "auto", width: "unset" }}
                     links={[]}
-                    submissionStatus={"Paper submitted to IEEE Aerospace 2024"}
+                    submissionStatus={"Paper accepted to IEEE Aerospace 2024"}
                 />
             </div>
         </div>

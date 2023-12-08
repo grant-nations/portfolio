@@ -52,60 +52,74 @@ function ResumeSection({exitSection}) {
             </div>
             <div>
                 <p className="section-subtitle">Education</p>
-                <p className="section-text resume-section-subsection-item">University of Utah, Salt Lake City, UT — BCS
+                <p className="section-text resume-section-subsection-item">University of Utah, Salt Lake City, UT — BS
                     Computer Science, Physics Minor</p>
                 <p className="date-range">Fall 2019 - Spring 2024</p>
                 <ul className="section-list">
-                    <li>3.99 Cumulative/4.0 Major GPA</li>
-                    <li>Academic Excellence full tuition scholarship recipient</li>
+                    <li>4.0 Major/3.99 Cumulative GPA</li>
+                    <li>UROP Scholar, Fall 2023</li>
+                    <li>7x scholarship recipient</li>
                     <li>National Merit Commended Scholar</li>
                     <li>Varsity Swim and Dive student athlete, Fall 2019 - Spring 2021</li>
                 </ul>
             </div>
             <div>
+                <p className="section-subtitle">Publications</p>
+                <ul className="section-list">
+                    <li>Nations, Grant, C. Luke Nelson, and Daniel S. Drew. "Empirical Study of Ground Proximity Effects for Small-scale Electroaerodynamic Thrusters." arXiv preprint arXiv:2309.10919 (2023).
+                    </li>
+                    <li>Nations, Grant and Justin Fletcher. “An Integer Programming Approach to Observation Scheduling for Space Domain Awareness.” to appear in IEEE Aerospace 2024 Proceedings (2023).
+                    </li>
+                </ul>
+            </div>
+            <div>
                 <p className="section-subtitle">Work History</p>
                 <div>
-                    <p className="section-text resume-section-subsection-item">KBR — Operations Research Engineering
+                    <p className="section-text resume-section-subsection-item">University of Utah College of Engineering — Robotics Research Assistant
+                        </p>
+                    <p className="date-range">July 2023 - Present, Salt Lake City, UT</p>
+                    <ul className="section-list">
+                        <li>Design and run various experiments to determine changes in thrust and thrust efficiency of electroaerodynamic devices as a result of ground and ceiling proximity effects.
+                        </li>
+                        <li>Design and fabricate quad thruster fuselages via stereolithographic printing to isolate specific aerodynamic phenomena in experiments.
+                        </li>
+                        <li>Write multithreaded testing scripts in Python to simultaneously control a power supply, oscilloscope, 3D printer, and load cell used in experiments.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p className="section-text resume-section-subsection-item">KBR — Operations Research/Machine Learning Engineering
                         Intern</p>
                     <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
                     <ul className="section-list">
-                        <li>Research and develop a mixed-integer programming model and parallel machine scheduler for
-                            observations of Earth-orbiting satellites to produce dense, high quality schedules.
+                        <li>Research and develop parallelized scheduling algorithms implementing logic-based benders decomposition for the observation of Earth-orbiting satellites.
                         </li>
-                        <li>Research and develop algorithms implementing logic-based benders decomposition to reduce the
-                            time needed to solve programming models.
+                        <li>Optimize code to reduce approximately 400,000 sensor transition time calculations from over 1 hour to under 4 seconds.
                         </li>
-                        <li>Implement MIP models and decomposition algorithms in Python using the Pyomo and GEKKO optimization
-                            libraries.
+                        <li>Use the Pyomo and GEKKO optimization libraries to construct and solve mixed integer, integer, and binary programming scheduling models.
                         </li>
-                        <li>Adapt the open-source Python package Astroplan to be usable within space domain awareness
-                            applications.
+                        <li>Write robust unit tests, run code coverage reports, and profile expensive operations to ensure fast and reliable code.
                         </li>
-                        <li>Modify satellite observation scheduling API to handle requests from multiple telescopes in
-                            different geographical locations.
+                        <li>Communicate progress and discuss future direction in team standup meetings.
                         </li>
-                        <li>Communicate progress and future direction in biweekly team meetings.</li>
                     </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">University of Utah College of Science —
-                        PANDA (Physics AND Astronomy) Network Mentor and Committee Member</p>
-                    <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
+                        Physics and Astronomy Network Mentor and Committee Member</p>
+                    <p className="date-range">August 2022 - June 2023, Salt Lake City, UT</p>
                     <ul className="section-list">
-                        <li>Prepare and lead group activities for freshman students to explore their opportunities
-                            within the Physics and Astronomy department and university.
+                        <li>Introduce new program initiatives such as industry-focused discussion topics to help students achieve their career goals.
                         </li>
-                        <li>Serve as a mentor to freshman students to aid in their navigation of career paths,
-                            academics, and the university.
+                        <li>Prepare and lead group activities for freshman students to explore their opportunities within the Physics and Astronomy department and university.
                         </li>
-                        <li>Discuss plans with Physics and Astronomy professors and mentors to achieve the best outcome
-                            for students in the freshman seminar.
+                        <li>Serve as a mentor to freshman students to aid in their navigation of career paths, academics, and the university.
                         </li>
                     </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">University of Utah College of Engineering
-                        — Undergraduate Research Assistant</p>
+                        — Undergraduate Research Assistant (Nuclear Materials Pyroprocessing)</p>
                     <p className="date-range">September 2021 - April 2022, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Assist in the research of high temperature reference electrodes for use in molten salt
@@ -124,6 +138,19 @@ function ResumeSection({exitSection}) {
             </div>
             <div>
                 <p className="section-subtitle">Projects</p>
+                <div>
+                    <p className="section-text resume-section-subsection-item">Abysm X-Bot
+                        — <a className="link" target="_blank" rel="noopener noreferrer"
+                            href="https://twitter.com/abysm_bot">twitter.com/abysm_bot</a>
+                    </p>
+                    <ul className="section-list">
+                        <li>Build an X (Twitter) bot that automatically scrapes top US news sites and reports on daily events.
+                        </li>
+                        <li>Interact with OpenAI’s GPT 3.5 API for site summaries and tweet generation.
+                        </li>
+                        <li>Scrape hundreds of news articles daily using a headless Selenium Firefox browser.</li>
+                    </ul>
+                </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">Kana Shuffle
                         — <a className="link" target="_blank" rel="noopener noreferrer"
@@ -183,10 +210,10 @@ function ResumeSection({exitSection}) {
             <div>
                 <p className="section-subtitle">Advanced Coursework</p>
                 <ul className="section-list">
-                    <li>Foundations of Data Analysis</li>
-                    <li>Algorithms</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Human-AI Alignment</li>
                     <li>Software Practice I & II</li>
-                    <li>Engineering Probability and Statistics</li>
                     <li>Partial Differential Equations for Engineers</li>
                     <li>Computer Security</li>
                     <li>Thermodynamics and Statistical Mechanics</li>
@@ -205,14 +232,21 @@ function ResumeSection({exitSection}) {
                 <div>
                     <p className="section-text resume-section-subsection-item">Frameworks/RTEs/Libraries</p>
                     <ul className="section-list">
-                        <li>NumPy, Pyomo, GEKKO, Astroplan, SciPy, Redux, React, Qt, Express, Node.js</li>
+                        <li>Pytorch, NumPy, Pyomo, GEKKO, Astroplan, SciPy, Redux, React, Qt, Express, Node.js</li>
                     </ul>
                 </div>
                 <div>
-                    <p className="section-text resume-section-subsection-item">Tools</p>
+                    <p className="section-text resume-section-subsection-item">Software Tools</p>
                     <ul className="section-list">
                         <li>SolidWorks, AWS, Git, Github, Docker, CodeCommit, Firebase, Stripe, Amplify, Netlify,
                             Heroku, Photoshop
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p className="section-text resume-section-subsection-item">Skills</p>
+                    <ul className="section-list">
+                        <li>Soldering, UV-laser micromachining, MIG welding, machining, SLA and FDM 3D printing, woodworking
                         </li>
                     </ul>
                 </div>

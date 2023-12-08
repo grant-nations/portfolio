@@ -34,7 +34,6 @@ function AcademicsSection({ exitSection }) {
             <p className="section-text section-separator" >Notable University Courses</p>
             <p className="section-list-item-title">Computer science:</p>
             <ul className="section-list">
-                <li>CS 5460 Operating Systems <span style={{ color: "#D09CFA", fontWeight: 400}}>(next semester)</span></li>
                 <li>CS 5789 Embedded Systems and Kinetic Art <span style={{ color: "#D09CFA", fontWeight: 400 }}>(next semester)</span></li>
                 <li>CS 5960 Human-AI Alignment <span style={{ color: "#D09CFA", fontWeight: 400 }}>(in progress)</span></li>
                 <li>CS 5353 Deep Learning <span style={{ color: "#D09CFA", fontWeight: 400 }}>(in progress)</span></li>
