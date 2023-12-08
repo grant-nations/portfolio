@@ -15,7 +15,7 @@ function AcademicsSection({ exitSection }) {
             <p className="section-text">I started out studying mechanical engineering at the University of Utah, but after one year I realized how cool programming was
                 and switched to computer science. A year after being in computer science, I became interested in physics during a conversation about a “space elevator” and
                 the next day added physics as a minor. Currently, I am in my fifth and final year and will graduate in the spring of 2024 with a BS in computer science and
-                a minor in physics. Following graduation I plan to enroll in a neuroinformatics graduate school program.
+                a minor in physics.
             </p>
             <p className="section-text section-separator" >Scholarships and Awards</p>
             <ul className="section-list">
