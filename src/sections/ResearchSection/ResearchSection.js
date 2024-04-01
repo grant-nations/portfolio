@@ -36,6 +36,28 @@ function ResearchSection({ exitSection }) {
             <div>
                 <ResearchProjectDisplay
                     setLockScroll={setLockScroll}
+                    startDate="January 2024"
+                    endDate="Present"
+                    name="Geometric Optimization of Ground Effect for Small-scale Electroaerodynamic Hovercraft"
+                    descriptions={["In progress."]}
+                    images={[]}
+                    imgStyle={""}
+                    links={[]}
+                    submissionStatus={""}
+                />
+                <ResearchProjectDisplay
+                    setLockScroll={setLockScroll}
+                    startDate="July 2023"
+                    endDate="Present"
+                    name="Ceiling Proximity Effects and Electrostatic Adhesion for Small-scale Electroaerodynamic Thrusters"
+                    descriptions={["In progress."]}
+                    images={[]}
+                    imgStyle={""}
+                    links={[]}
+                    submissionStatus={""}
+                />
+                <ResearchProjectDisplay
+                    setLockScroll={setLockScroll}
                     startDate="July "
                     endDate="September 2023"
                     name="Empirical Study of Ground Proximity Effects for Small-scale Electroaerodynamic Thrusters"
@@ -43,7 +65,7 @@ function ResearchSection({ exitSection }) {
                     images={icra2024photos}
                     imgStyle={{ objectFit: "contain", marginLeft: "auto", width: "unset" }}
                     links={[{ href: "https://arxiv.org/abs/2309.10919", text: "arxiv.org/abs/2309.10919 (preprint)" }]}
-                    submissionStatus={"Paper submitted to ICRA 2024"}
+                    submissionStatus={"To appear in 2024 IEEE International Conference on Robotics and Automation (ICRA) Proceedings"}
                 />
                 <ResearchProjectDisplay
                     setLockScroll={setLockScroll}
@@ -54,7 +76,7 @@ function ResearchSection({ exitSection }) {
                     images={[]}
                     imgStyle={{ objectFit: "contain", marginLeft: "auto", width: "unset" }}
                     links={[]}
-                    submissionStatus={"Paper accepted to IEEE Aerospace 2024"}
+                    submissionStatus={"To appear in 2024 IEEE Aerospace Proceedings"}
                 />
             </div>
         </div>

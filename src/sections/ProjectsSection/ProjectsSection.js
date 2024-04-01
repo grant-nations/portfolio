@@ -16,6 +16,8 @@ import twenty84 from "./photos/twenty_84_gif_clipchamp.gif";
 import { useState } from "react";
 import BackRocket from "../../components/BackRocket/BackRocket";
 import dc_engine from "./photos/dc_engine.JPG"
+import dronesStressMeOut from "./photos/drones_stress_me_out.png"
+import lstm from "./photos/drones_lstm.png"
 
 function ProjectsSection({ exitSection }) {
 
@@ -26,6 +28,10 @@ function ProjectsSection({ exitSection }) {
         "In this project we set up a Raspberry Pi with a webcam to automatically record and upload video according to a schedule. I was in charge of the student and professor user interfaces using React and Redux, from wireframe to mockup to implementation. Jan, my main partner in this project, was in charge of the Django backend and using Celery to initiate recording on the Raspberry Pi. "]
 
     const twenty84Description = ["The year is 2084...", "Immortality is available to a select few, one of which is Elon Musk (of course). From the result of a Twitter poll, Musk has decided to launch a siege on Earth from his command base on Mars. It is up to you, the final Earth astronaut, to defend Earth from Musk's army of Tesla spaceships. (An arcade-style pixel art game made with pygame.)"]
+
+    const dronesDescription = ["Interactions between humans and small unmanned aerial vehicles (sUAV) are becoming commonplace. Already, a race to be the dominant drone delivery service is underway between  Amazon, UPS, Wing, and Zipline. Within companies, too, humans are required to collaborate with drones more and more; Industries such as entertainment, communication, sports, emergency response, and construction routinely utilize rotary-winged crafts to streamline their operations. However, as we share more time with sUAVs and other robots in the workplace, the effects that these robots have on humans need to be taken into account. Namely, the stress induced on humans by collaborating aerial robots is a problem that is understudied and hugely impactful.",
+" For industrial robots, autonomous drone behavior is designed to maximize productivity. This objective alone, however, ignores the alignment problem. Without also minimizing the negative impacts of robots on their human collaborators, we are bound to create systems that impede on human values. Thus, in the context of collaborative, autonomous aerial robots, the end goal is to develop intelligent systems capable of working alongside humans without creating a stressful environment. To this end, the intermediate problem of accurately and efficiently modeling human stress considering sUAV state in a collaborative environment must be solved.",
+"As part of a class project, I developed an LSTM RNN network capable of predicting human collaborator stress in response to simulated drone behavior. Drone states are simulated by generating random directions and velocities in spherical coordinates, then propagating motion along that trajectory for a random number of timesteps. Collaborator ECG, EDA, and stress data for each timestep is generated using functions that consider demographic information and drone state. The LSTM was shown to learn familiar drone motions with low amounts of training data to a high level of accuracy. Future work includes improving generalization to unseen drone behavior."]
 
     const twenty84Photos = [{
         img: twenty84,
@@ -70,6 +76,11 @@ function ProjectsSection({ exitSection }) {
         { img: react_signup, name: "react_signup", caption: "Crown Clothing signup page." }
     ]
 
+    const dronesPhotos = [
+        { img: dronesStressMeOut, name: "drones_stress_me_out", caption: "Stress prediction based on generated collaborator biofeedback." },
+        { img: lstm, name: "drones_lstm", caption: "LSTM model for stress prediction." }
+    ]
+
     const [lockScroll, setLockScroll] = useState(false);
 
     return (
@@ -80,6 +91,15 @@ function ProjectsSection({ exitSection }) {
                 <BackRocket exitSection={exitSection} />
             </div>
             <div>
+                <ProjectDisplay
+                    setLockScroll={setLockScroll}
+                    startDate="December 2023"
+                    name="Drones Stress Me Out!"
+                    descriptions={dronesDescription}
+                    images={dronesPhotos}
+                    // imgStyle={{ objectFit: "contain", marginLeft: "auto", width: "100%"}}
+                    links={[{href: "https://github.com/grant-nations/drones_stress_me_out", text: "github.com/grant-nations/drones_stress_me_out"}]}
+                />
 
                 <AbysmProjectDisplay />
 
