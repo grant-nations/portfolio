@@ -128,14 +128,6 @@ function ProjectsSection({ exitSection }) {
                     images={pupilPhotos} />
                 <ProjectDisplay
                     setLockScroll={setLockScroll}
-                    startDate="2015"
-                    endDate="2019"
-                    name="Crustangs"
-                    descriptions={mustangDescription}
-                    images={mustangPhotos}
-                />
-                <ProjectDisplay
-                    setLockScroll={setLockScroll}
                     startDate="July 2022"
                     name="Kana Shuffle"
                     descriptions={["Kana Shuffle is a web application that allows users to download Japanese hiragana, katakana, and romaji practice sheets whose characters are in a different order each time. It addresses a problem I noticed when learning to read Japanese, in that I had a difficult time remembering hiragana and katakana if the worksheet I was using was in a different order. This application is built using Node.js/express backend and React.js frontend."]}
@@ -158,7 +150,14 @@ function ProjectsSection({ exitSection }) {
                         { href: "https://github.com/grant-nations/crown-clothing", text: "github.com/grant-nations/crown-clothing" }
                     ]}
                 />
-
+                <ProjectDisplay
+                    setLockScroll={setLockScroll}
+                    startDate="2015"
+                    endDate="2019"
+                    name="Crustangs"
+                    descriptions={mustangDescription}
+                    images={mustangPhotos}
+                />
             </div>
         </div>
     )
