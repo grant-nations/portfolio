@@ -66,9 +66,9 @@ function ResumeSection({exitSection}) {
             <div>
                 <p className="section-subtitle">Publications</p>
                 <ul className="section-list">
-                    <li>Nations, Grant, C. Luke Nelson, and Daniel S. Drew. "Empirical Study of Ground Proximity Effects for Small-scale Electroaerodynamic Thrusters." arXiv preprint arXiv:2309.10919 (2023).
+                    <li>Nations, Grant, C. Luke Nelson, and Daniel S. Drew. "Empirical Study of Ground Proximity Effects for Small-scale Electroaerodynamic Thrusters." 2024 ICRA Proceedings - to appear (2023).
                     </li>
-                    <li>Nations, Grant and Justin Fletcher. “An Integer Programming Approach to Observation Scheduling for Space Domain Awareness.” to appear in IEEE Aerospace 2024 Proceedings (2023).
+                    <li>Nations, Grant and Justin Fletcher. “An Integer Programming Approach to Observation Scheduling for Space Domain Awareness.” 2024 IEEE Aerospace Proceedings (2023).
                     </li>
                 </ul>
             </div>
@@ -88,9 +88,9 @@ function ResumeSection({exitSection}) {
                     </ul>
                 </div>
                 <div>
-                    <p className="section-text resume-section-subsection-item">KBR — Operations Research/Machine Learning Engineering
+                    <p className="section-text resume-section-subsection-item">KBR — Software Engineering
                         Intern</p>
-                    <p className="date-range">August 2022 - Present, Salt Lake City, UT</p>
+                    <p className="date-range">August 2022 - October 2023, Salt Lake City, UT</p>
                     <ul className="section-list">
                         <li>Research and develop parallelized scheduling algorithms implementing logic-based benders decomposition for the observation of Earth-orbiting satellites.
                         </li>

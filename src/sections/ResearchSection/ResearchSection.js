@@ -8,6 +8,7 @@ import quad_thruster from "./photos/quad_thruster.png";
 import h_t_quad from "./photos/h_T_Quad.png"
 
 function ResearchSection({ exitSection }) {
+
     const [lockScroll, setLockScroll] = useState(false);
 
     const icra2024photos = [{
@@ -75,8 +76,9 @@ function ResearchSection({ exitSection }) {
                     descriptions={sda_ip_desc}
                     images={[]}
                     imgStyle={{ objectFit: "contain", marginLeft: "auto", width: "unset" }}
-                    links={[]}
-                    submissionStatus={"To appear in 2024 IEEE Aerospace Proceedings"}
+                    links={[{href: "https://ieeexplore.ieee.org/abstract/document/10521092", text: "ieeexplore.ieee.org/abstract/document/10521092"}]}
+                    submissionStatus={"Published in 2024 IEEE Aerospace Proceedings"}
+                    pdfFilename={"aero24_nations.pdf"}
                 />
             </div>
         </div>

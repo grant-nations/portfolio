@@ -12,7 +12,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    /*margin-right: 16px;*/
+    /*margin-right: 14px;*/
 }
 
 .image-stall{
@@ -51,7 +51,7 @@
 .project-dates{
     font-weight: 300;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .project-image-caption{
@@ -63,7 +63,7 @@
 
 .project-link{
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     /* color: #F7EA00; */
     color: #D09CFA;
     line-height: 28px;
@@ -101,6 +101,6 @@
         font-size: 14px;
     }
     .project-name{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

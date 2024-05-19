@@ -15,7 +15,7 @@ function AboutSection({ exitSection }) {
                 <BackRocket exitSection={exitSection} />
             </div>
             <p className="section-text"> Yo, I’m Grant Nations.</p>
-            <p className="section-text">Currently, I’m in my fifth and final semester at the University of Utah, majoring in computer science with a physics minor. I work as a research assistant in the Drew Research Lab, where I mainly focus on methods for improving thrust efficiency in electroaerodynamic thrusters.
+            <p className="section-text">I recently graduated from the University of Utah <span style={{fontStyle: "italic"}}>magna cum laude</span> with a bachelor’s degree in computer science and a physics minor.
             </p>
             <p className="section-text">I have diverse interests. I like things cyberpunk, gothic, rustic, and shoegaze. My favorite pastimes are reading (history, science, philosophy, poetry), writing, and traveling. I also like thinking about big questions and learning concepts and skills that will one day help me answer them. For example, what physical structures give humans the ability to question their own existence? How can we leverage artificial intelligence to diagnose complicated medical conditions quickly and conveniently? To answer these questions and more, I intend to study computational neuroscience and neurotechnology in graduate school.
 

@@ -53,7 +53,7 @@
 
 .section-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #e6faf8;
     margin: 40px 0 0;
     line-height: 28px;
@@ -69,7 +69,7 @@
 
 .section-list-item-title {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #e6faf8;
     margin: 20px 0 0;
     line-height: 28px;
@@ -78,7 +78,7 @@
 
 .section-list {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #e6faf8;
     margin: 10px 0 0;
     line-height: 30px;
@@ -436,7 +436,7 @@
     }
 
     .section-separator{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .section-list {

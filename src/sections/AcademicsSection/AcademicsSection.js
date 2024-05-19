@@ -11,12 +11,7 @@ function AcademicsSection({ exitSection }) {
                 <ReturnToShip exitSection={exitSection} />
                 <BackRocket exitSection={exitSection} />
             </div>
-            <p className="section-text section-description"> I’m a student at the University of Utah majoring in computer science with a physics minor.</p>
-            <p className="section-text">I started out studying mechanical engineering at the University of Utah, but after one year I realized how cool programming was
-                and switched to computer science. A year after being in computer science, I became interested in physics during a conversation about a “space elevator” and
-                the next day added physics as a minor. Currently, I am in my fifth and final year and will graduate in the spring of 2024 with a BS in computer science and
-                a minor in physics.
-            </p>
+            <p className="section-text section-description">I recently graduated from the University of Utah <span style={{fontStyle: "italic"}}>magna cum laude</span> with a bachelor’s degree in computer science and a physics minor.</p>
             <p className="section-text section-separator" >Scholarships and Awards</p>
             <ul className="section-list">
                 <li>Undergraduate Research Opportunities Program Award, University of Utah 2023</li>

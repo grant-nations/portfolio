@@ -3,7 +3,33 @@ import { useEffect, useState } from "react";
 import ExplodedPhoto from "../ExplodedPhoto/ExplodedPhoto";
 import "./ResearchProjectDisplay.css"
 
-function ResearchProjectDisplay({ startDate, setLockScroll, endDate, name, descriptions, images, links, imgStyle, submissionStatus }) {
+function ResearchProjectDisplay({ startDate, setLockScroll, endDate, name, descriptions, images, links, imgStyle, submissionStatus, pdfFilename }) {
+
+    const windowOrigin = window.location.origin;
+
+    const downloadPaper = (paperFilename) => {
+        fetch(windowOrigin + "/" + paperFilename)
+            .then((response) => response.blob())
+            .then((blob) => {
+                // Creating blob link to download
+                const fileURL = window.URL.createObjectURL(
+                    new Blob([blob]));
+                const link = document.createElement('a');
+                link.href = fileURL;
+                link.setAttribute(
+                    'download',
+                    paperFilename
+                );
+                // Append to html link element page
+                document.body.appendChild(link);
+
+                // Start download
+                link.click();
+
+                // Clean up and remove the link
+                link.parentNode.removeChild(link);
+            })
+    }
 
     const [photoView, setPhotoView] = useState({ img: null, imgName: null })
     const [windowSize, setWindowSize] = useState(getWindowSize());
@@ -60,6 +86,7 @@ function ResearchProjectDisplay({ startDate, setLockScroll, endDate, name, descr
                     href={link.href} target="_blank" rel="noopener noreferrer">{link.text}</a>)}
             </div>}
             {photoView.img && <ExplodedPhoto img={photoView.img} imgName={photoView.imgName} exitView={exitPhotoView} />}
+            {pdfFilename && <button className="resume-download" style = {{marginTop: "5px"}}type="button" onClick={() => downloadPaper(pdfFilename)}>Download PDF</button>}
         </div>
     )
 }
