@@ -49,6 +49,8 @@ function AcademicsSection({ exitSection }) {
             <ul className="section-list">
                 <li>PHYS 3760 Thermodynamics and Statistical Mechanics</li>
                 <li>PHYS 3740 Introduction to Quantum Mechanics and Relativity</li>
+                <li>PHYS 2220 Physics II</li>
+                <li>PHYS 2210 Physics I</li>
             </ul>
             <p className="section-text section-separator" >Online Courses</p>
             <ul className="section-list">
