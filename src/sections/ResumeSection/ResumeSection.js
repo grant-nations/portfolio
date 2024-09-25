@@ -81,9 +81,9 @@ function ResumeSection({ exitSection }) {
                     </p>
                     <p className="date-range">June 2024 - Present, Alameda, CA</p>
                     <ul className="section-list">
-                        <li>Use Numpy, Pandas, Scikit-learn, PyTorch, etc. to implement machine learning techniques such as random forests and neural networks to predict manufacturing quality based on electrochemical data.
+                        <li>Use Numpy, Pandas, Scikit-learn, and PyTorch to implement random forest and neural network classifiers capable of predicting device manufacturing quality based on electrochemical data with over 95% accuracy.
                         </li>
-                        <li>Build an easily scalable, modular repository for the development and deployment of classification and regression models based on electrochemical data in Python.
+                        <li>Build an easily scalable, modular repository for the development of classification and regression models based on electrochemical data in Python with unit tests, linting, and code coverage.
                         </li>
                         <li>Automate analysis and visualization of electrochemical data through a modular repository with easy-to-use interfaces designed for non-technical user interaction.
                         </li>
