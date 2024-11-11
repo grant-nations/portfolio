@@ -56,7 +56,7 @@ function ResearchSection({ exitSection }) {
                     descriptions={icra2025desc}
                     images={[]}
                     imgStyle={""}
-                    links={[]}
+                    links={[{href: "https://arxiv.org/abs/2410.19240", text: "arxiv.org/abs/2410.19240 (preprint)"}]}
                     submissionStatus={"Under review"}
                 />
                 <ResearchProjectDisplay

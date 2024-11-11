@@ -77,9 +77,14 @@ function ResumeSection({ exitSection }) {
             <div>
                 <p className="section-subtitle">Work History</p>
                 <div>
+                    <p className="section-text resume-section-subsection-item">Applied Intuition — Engineering
+                    </p>
+                    <p className="date-range">November 2024 - Present, Mountain View, CA</p>
+                </div>
+                <div>
                     <p className="section-text resume-section-subsection-item">iota Biosciences — Sensor Research Intern
                     </p>
-                    <p className="date-range">June 2024 - Present, Alameda, CA</p>
+                    <p className="date-range">June - November 2024, Alameda, CA</p>
                     <ul className="section-list">
                         <li>Use Numpy, Pandas, Scikit-learn, and PyTorch to implement random forest and neural network classifiers capable of predicting device manufacturing quality based on electrochemical data with over 95% accuracy.
                         </li>
