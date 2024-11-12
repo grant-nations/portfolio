@@ -22,7 +22,7 @@ import lstm from "./photos/drones_lstm.png"
 function ProjectsSection({ exitSection }) {
 
     const mustangDescription = ["In 2015, I got a 1966 Mustang as my first car. It didn’t have an engine, the transmission was hanging by a wire, and the floors had gaping holes in them. Over the course of the next year, I went from knowing nothing about cars to rebuilding my own, and as a sophomore in high school I got to have a loud, slightly rusty yellow hot rod as my daily driver. My friends called it “The Crustang”, and the name stuck. Sadly, someone on their phone rear ended me at a stop light one day, totalling my car.",
-        "I got to build another Mustang though, and this time around I knew what I was doing. I spent another year turning another 1966 Mustang with an inline-six engine into my dream car. I took the newly-rebuilt V8 engine, four speed manual transmission, suspension, and anything else I could from The Crustang to beef up my new car. I named it “Dani California” after the song by the Red Hot Chili Peppers."]
+        "I got to build another Mustang though, and this time around I knew what I was doing. I spent another year turning another 1966 Mustang with an inline-six engine into my dream car. I took the newly-rebuilt V8 engine, four speed manual transmission, suspension, and anything else I could from The Crustang to beef up my new car."]
 
     const pupilDescription = ["Pupil was an attempt at a software/hardware solution to the difficulty that students and professors faced with hybrid classrooms. Pupil had two main goals: To provide professors with a way to automatically record and upload their lectures online based on their class schedule, and to give students convenient online access to recordings of their in-person lectures. In this way, students get the benefit of lecture recordings and professors lose the hassle of handling the recording.",
         "In this project we set up a Raspberry Pi with a webcam to automatically record and upload video according to a schedule. I was in charge of the student and professor user interfaces using React and Redux, from wireframe to mockup to implementation. Jan, my main partner in this project, was in charge of the Django backend and using Celery to initiate recording on the Raspberry Pi. "]
@@ -120,7 +120,6 @@ function ProjectsSection({ exitSection }) {
                     endDate="January 2022"
                     name="Pupil"
                     links={[
-                        { href: "https://www.aboutpupil.com", text: "www.aboutpupil.com" },
                         { href: "https://github.com/PUPILorg/pupil-frontend", text: "github.com/PUPILorg/pupil-frontend" },
                         { href: "https://github.com/PUPILorg/pupil_landing_frontend", text: "github.com/PUPILorg/pupil_landing_frontend" }
                     ]}

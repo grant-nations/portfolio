@@ -5,7 +5,6 @@ import ResearchProjectDisplay from "../../components/ResearchProjectDisplay/Rese
 import { useState } from "react";
 
 import quad_thruster from "./photos/quad_thruster.png";
-import h_t_quad from "./photos/h_T_Quad.png"
 
 function ResearchSection({ exitSection }) {
 
@@ -15,11 +14,6 @@ function ResearchSection({ exitSection }) {
         img: quad_thruster,
         name: "quad_thruster",
         caption: "Four ducted thrusters arranged in a “quadthruster” configuration, with 45° strakes extending down to form a skirt between them in order to minimize suckdown when in proximity to the ground. This design is shown to improve thrust by over 60% in close proximity to the ground, avoid any region of decreased thrust from suckdown, and still produce up to a 20% thrust benefit from fountain lift when further from the ground plane."
-    },
-    {
-        img: h_t_quad,
-        name: "quadthruster_curves",
-        caption: "Ratio of measured thrust to out-of-ground effect thrust versus z/r for a quadthruster configuration with different thruster protrusion heights, h, or inclusion of strakes (right). The same, but including h = 0 data, which significantly skews the range of the measured thrust enhancement (left). All data collected at 3kV applied potential."
     }]
 
     const sda_ip_desc = ["Satellites underpin all economic, military, and scientific activity in space. Ground-based telescope observations provide much of the tracking information that enables collision avoidance and space traffic management, but recent growth in the size and dynamism of the satellite population divides the available observing capacity between multiple competing observation objectives. The task of selecting an optimal assignment of telescope observing capacity to observation objectives is NP-hard and involves domain-specific considerations such as sequence-dependent transition times, observability constraints, occlusion avoidance, and astrodynamic limitations. These features conspire to prevent direct and efficient application of traditional scheduling approaches over long time horizons.",
