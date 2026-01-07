@@ -52,8 +52,9 @@ function ResumeSection({ exitSection }) {
             </div>
             <div>
                 <p className="section-subtitle">Education</p>
-                <p className="section-text resume-section-subsection-item">University of Utah, Salt Lake City, UT — BS
-                    Computer Science, Physics Minor</p>
+                <p className="section-text resume-section-subsection-item">EPFL, Lausanne, Switzerland — MS Neuro-X, Life Sciences Engineering Minor</p>
+                <p className="date-range">Spring 2026 - Spring 2028</p>
+                <p className="section-text resume-section-subsection-item">University of Utah, Salt Lake City, UT — BS Computer Science, Physics Minor</p>
                 <p className="date-range">Fall 2019 - Spring 2024</p>
                 <ul className="section-list">
                     <li>4.0 Major/3.99 Cumulative GPA</li>
@@ -77,16 +78,26 @@ function ResumeSection({ exitSection }) {
             <div>
                 <p className="section-subtitle">Work History</p>
                 <div>
-                    <p className="section-text resume-section-subsection-item">Applied Intuition — Engineering
+                    <p className="section-text resume-section-subsection-item">Applied Intuition — Software Engineer
                     </p>
-                    <p className="date-range">November 2024 - Present, Mountain View, CA</p>
+                    <p className="date-range">November 2024 - January 2026, Mountain View, CA</p>
+                    <ul className="section-list">
+                        <li>Lead system and algorithmic design as directly responsible individual (DRI) for an automated failure detection system in CI utilizing a distributed binary search algorithm.
+                        </li>
+                        <li>Build and maintain web services in AWS for (e.g.) Git LFS proxying and internal metrics collection.
+                        </li>
+                        <li>Develop an automated system for ingesting JSON logs from PostgreSQL into Snowflake database using version-controlled SQL data transformations.
+                        </li>
+                        <li>Build infrastructure for various systems including Buildkite, web APIs (e.g. Slack, TestRail), Docker, and web services.
+                        </li>
+                    </ul>
                 </div>
                 <div>
                     <p className="section-text resume-section-subsection-item">iota Biosciences — Sensor Research Intern
                     </p>
                     <p className="date-range">June - November 2024, Alameda, CA</p>
                     <ul className="section-list">
-                        <li>Use Numpy, Pandas, Scikit-learn, and PyTorch to implement random forest and neural network classifiers capable of predicting device manufacturing quality based on electrochemical data with over 95% accuracy.
+                        <li>Use Numpy, Pandas, Scikit-learn, and PyTorch to implement random forest and neural network classifiers capable of predicting device manufacturing quality based on electrochemical data.
                         </li>
                         <li>Build an easily scalable, modular repository for the development of classification and regression models based on electrochemical data in Python with unit tests, linting, and code coverage.
                         </li>

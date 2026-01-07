@@ -11,7 +11,7 @@ function AcademicsSection({ exitSection }) {
                 <ReturnToShip exitSection={exitSection} />
                 <BackRocket exitSection={exitSection} />
             </div>
-            <p className="section-text section-description">I recently graduated from the University of Utah <span style={{fontStyle: "italic"}}>magna cum laude</span> with a bachelor’s degree in computer science and a physics minor.</p>
+            <p className="section-text section-description">In the spring of 2024, I graduated from the University of Utah <span style={{fontStyle: "italic"}}>magna cum laude</span> with a bachelor’s degree in computer science and a physics minor. Currently I am studying interdisciplinary neuroscience in the Neuro-X master’s program at EPFL in Lausanne, Switzerland.</p>
             <p className="section-text section-separator" >Scholarships and Awards</p>
             <ul className="section-list">
                 <li>Undergraduate Research Opportunities Program Award, University of Utah 2023</li>
